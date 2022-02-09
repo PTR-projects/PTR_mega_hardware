@@ -328,6 +328,14 @@
     [
       "f38dad53-0af4-40f6-a173-e0e37aecb5da",
       "Power supply"
+    ],
+    [
+      "5f9da060-2eb0-4ae6-ad5b-b0da419a62a6",
+      "Interfaces"
+    ],
+    [
+      "68d9bec4-a8fa-482b-99d8-a42578238d37",
+      "IO"
     ]
   ],
   "text_variables": {}
