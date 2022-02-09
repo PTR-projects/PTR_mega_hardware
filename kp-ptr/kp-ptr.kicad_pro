@@ -320,6 +320,14 @@
     [
       "9538e4ed-27e6-4c37-b989-9859dc0d49e8",
       ""
+    ],
+    [
+      "1d5e7912-4d51-4a4c-b45e-2695b4191d61",
+      "Sensors"
+    ],
+    [
+      "f38dad53-0af4-40f6-a173-e0e37aecb5da",
+      "Power supply"
     ]
   ],
   "text_variables": {}

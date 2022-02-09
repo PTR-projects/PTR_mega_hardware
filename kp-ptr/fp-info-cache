@@ -1,4 +1,4 @@
-19870940797186099
+19872585233317618
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55824,6 +55824,13 @@ MS5607
 0
 8
 8
+KP-PTR_lib
+XTAL_TSX-3225_16.0000MF18X-AC3
+
+
+0
+4
+4
 KP-PTR_lib
 ublox_LEA
 ublox LEA 6/7/8, (https://www.u-blox.com/sites/default/files/LEA-M8S-M8T-FW3_HardwareIntegrationManual_%28UBX-15030060%29.pdf)
