@@ -2896,9 +2896,6 @@
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/42e6c123-deaa-49d0-9568-19cbdde78d54"
       (reference "R?") (unit 1) (value "50k") (footprint "")
     )
-    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/5f759820-ae14-44a7-a135-3d22a66a80d1"
-      (reference "R?") (unit 1) (value "50k") (footprint "")
-    )
     (path "/6022d0ac-3571-4a14-8ea8-c9a8e75677f5"
       (reference "R?") (unit 1) (value "10k") (footprint "")
     )
