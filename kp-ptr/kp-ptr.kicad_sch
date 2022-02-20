@@ -2662,6 +2662,9 @@
     (path "/08a165a7-ccee-41b4-b99d-139490e071ca"
       (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/0c3c4823-2740-4ab2-b5b4-6a019ff29dc6"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/0dc485c2-a5e4-4981-b245-6e2aca26d21f"
       (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
     )
@@ -2794,6 +2797,9 @@
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/97cccbb6-6514-4e5a-8543-cd72aa1de6f2"
       (reference "#PWR?") (unit 1) (value "+1V8") (footprint "")
     )
+    (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/98bcc142-600c-4d4b-a452-827f32cfc206"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/a13e1304-f929-4a2e-9933-4bbe9c12b5b9"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -2876,6 +2882,12 @@
       (reference "C?") (unit 1) (value "10u") (footprint "")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/58f47553-7d47-4931-bd63-3471f1bbe1bb"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "")
+    )
+    (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/62824b2c-7a5b-41de-9535-243d411f16bb"
+      (reference "C?") (unit 1) (value "0.1uF") (footprint "")
+    )
+    (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/8899007d-b4a4-4c3e-a388-c91112ed7294"
       (reference "C?") (unit 1) (value "0.1uF") (footprint "")
     )
     (path "/8ef1d6c2-9afb-467f-94f0-2a571e5715a1"
