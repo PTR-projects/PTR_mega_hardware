@@ -1,4 +1,4 @@
-19850149334652563
+19853442189598618
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55650,6 +55650,13 @@ KP-PTR_lib
 30
 25
 KP-PTR_lib
+BUZZER CBT-09
+
+
+0
+2
+2
+KP-PTR_lib
 CAM-M8Q
 
 
@@ -55817,6 +55824,13 @@ LSM6DSO32
 0
 14
 14
+KP-PTR_lib
+MMC5983MA
+
+
+0
+16
+16
 KP-PTR_lib
 MS5607
 
