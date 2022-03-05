@@ -1,4 +1,4 @@
-19853442189598618
+19855088680999907
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55663,6 +55663,13 @@ CAM-M8Q
 0
 31
 31
+KP-PTR_lib
+E22-900M22S
+
+
+0
+22
+22
 KP-PTR_lib
 ESP32-C3-MINI-1
 ESP32-C3-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
