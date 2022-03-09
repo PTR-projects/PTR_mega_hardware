@@ -3053,6 +3053,9 @@
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/05226230-cdaa-4f32-bd74-cf6386b07708"
       (reference "#PWR0147") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/ce47932c-3469-4ba2-81c3-6e55143c92d0"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/b16fb66c-646a-4b14-8afd-faebe196e03a"
       (reference "C1") (unit 1) (value "TBD") (footprint "Capacitor_SMD:C_01005_0402Metric_Pad0.57x0.30mm_HandSolder")
     )

@@ -1,9 +1,17 @@
 {
   "board": {
     "active_layer": 0,
-    "active_layer_preset": "Wszystkie warstwy",
+    "active_layer_preset": "",
     "auto_track_width": true,
-    "hidden_nets": [],
+    "hidden_nets": [
+      "Earth",
+      "+3V3",
+      "SPI_MISO",
+      "SPI_MOSI",
+      "SPI_CLK",
+      "U0TXD",
+      "U0RXD"
+    ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
     "opacity": {
@@ -62,7 +70,7 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_ffffffff",
+    "visible_layers": "7ffffff_80000001",
     "zone_display_mode": 0
   },
   "meta": {
