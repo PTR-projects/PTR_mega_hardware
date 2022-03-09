@@ -3222,7 +3222,7 @@
       (reference "J4") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "KP-PTR_lib:217B-BC02")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/17c96f47-0016-4c9f-857d-3bc54b0121c5"
-      (reference "J5") (unit 1) (value "Micro_SD_Card_Det") (footprint "")
+      (reference "J5") (unit 1) (value "Micro_SD_Card_Det") (footprint "KP-PTR_lib:GCT_MEM2051-00-195-00-A")
     )
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/41ed2c25-0a33-432a-b218-19f5f06c4866"
       (reference "J6") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal")
