@@ -2204,7 +2204,7 @@
   (symbol (lib_id "power:Earth") (at 187.96 148.59 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid ce47932c-3469-4ba2-81c3-6e55143c92d0)
-    (property "Reference" "#PWR?" (id 0) (at 187.96 154.94 0)
+    (property "Reference" "#PWR0101" (id 0) (at 187.96 154.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "Earth" (id 1) (at 187.96 152.4 0)
