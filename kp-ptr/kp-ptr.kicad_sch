@@ -1105,6 +1105,10 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 5d93deac-93f4-4a08-b032-78b7ad2c2dc9)
   )
+  (text "50 Ohm" (at 71.12 48.26 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 62db8e3b-6561-4e26-83c3-14528f0b407d)
+  )
   (text "Strapping pin\n" (at 76.2 93.98 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 68bf1d6c-ba68-4aaf-88d3-009ba6703716)
@@ -1128,6 +1132,10 @@
   (text "Strapping pins" (at 207.01 97.79 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bd8154d2-ac8d-4bd8-a07c-575a70589aa9)
+  )
+  (text "50 Ohm" (at 33.655 48.26 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid dc50aae6-d852-414b-a99d-3c433e0ee8bb)
   )
   (text "Strapping pin\n" (at 80.01 63.5 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -2881,9 +2889,6 @@
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/0e6846e0-c0b7-4d09-98a0-4b41e9329c8f"
       (reference "#PWR086") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/eddd775e-7791-4e5d-a8e1-b79926434229"
-      (reference "#PWR087") (unit 1) (value "VDD") (footprint "")
-    )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/f467f7da-d51b-405e-8c73-d621186f5564"
       (reference "#PWR088") (unit 1) (value "Earth") (footprint "")
     )
@@ -3082,6 +3087,9 @@
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/2b61eb27-d391-4b0c-9d79-e952ad6eee1b"
       (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/329592c8-62f7-4321-8672-477d4aa9e306"
+      (reference "#PWR?") (unit 1) (value "VBUS") (footprint "")
+    )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/34111a7c-e7fb-4663-a410-325d48633300"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
     )
@@ -3093,6 +3101,9 @@
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/6b45d24f-dc3b-4e4a-aa75-668025f5989d"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/6c69ce45-7af5-406c-8c03-7e62d133f827"
+      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/88bb3a86-9d99-4b69-8476-d2cb2933a1ca"
       (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
@@ -3122,7 +3133,7 @@
       (reference "ANT1") (unit 1) (value "TBD") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/2b12b2d4-198b-4c76-b90a-d4d1638b8e72"
-      (reference "ANT?") (unit 1) (value "APAE1575R1340ABDD6-T") (footprint "")
+      (reference "ANT?") (unit 1) (value "APAE1575R1340ABDD6-T") (footprint "KP-PTR_lib:APAE1575 13x13x4mm GPS Patch Antenna")
     )
     (path "/b16fb66c-646a-4b14-8afd-faebe196e03a"
       (reference "C1") (unit 1) (value "TBD") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
@@ -3286,6 +3297,9 @@
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/94e53db9-ffab-45c9-951c-83988bceb04a"
       (reference "D10") (unit 1) (value "TBD") (footprint "")
     )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/55b5f7c1-9e27-4de8-8da9-4ddd7c634c2f"
+      (reference "D?") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-123")
+    )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/c0e01ba5-ed56-4572-a513-e7708605b1ff"
       (reference "D?") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder")
     )
@@ -3355,29 +3369,29 @@
     (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/5df71704-dd70-467a-9caa-8aedfabc86d8"
       (reference "Q5") (unit 1) (value "NMOS_SOT23") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
-    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/1bea5378-7e85-4110-a5a2-db707671269e"
-      (reference "Q6") (unit 1) (value "NMOS_SOT23") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/8c4b64bb-e884-431d-bb9e-e94e6b868d84"
+      (reference "Q?") (unit 1) (value "DMC2025UFDB") (footprint "")
     )
-    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/90f662bd-9935-4cda-95a5-ab7729009125"
-      (reference "Q7") (unit 1) (value "NMOS_SOT23") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/c33d0f7e-1fe6-4263-8371-03321a71eebc"
+      (reference "Q?") (unit 1) (value "DMC2025UFDB") (footprint "")
     )
-    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/12938643-23eb-459b-b3a7-66e54527f212"
-      (reference "Q8") (unit 1) (value "PMOS_SOT23") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/cf12cbe0-29c7-463b-9606-32f8fa4b7792"
+      (reference "Q?") (unit 1) (value "DMC2025UFDB") (footprint "")
     )
-    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/bc2610dd-e869-4057-93f0-45b98a83d316"
-      (reference "Q9") (unit 1) (value "PMOS_SOT23") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/f24d1059-63b1-479b-b1a4-76f6ef826da9"
+      (reference "Q?") (unit 1) (value "DMC2025UFDB") (footprint "")
     )
-    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/95e0e249-315d-44ac-a64e-078d4a48dae2"
-      (reference "Q10") (unit 1) (value "NMOS_SOT23") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/1a38c62a-a590-4913-bbae-3d58dfdd375c"
+      (reference "Q?") (unit 2) (value "DMC2025UFDB") (footprint "")
     )
-    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/1440c710-b7fd-4aac-af2a-747084d8fd9b"
-      (reference "Q11") (unit 1) (value "NMOS_SOT23") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/2ea5f82f-738e-4788-bb70-93af997ad6ed"
+      (reference "Q?") (unit 2) (value "DMC2025UFDB") (footprint "")
     )
-    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/01ee9d6d-2280-4d04-b65a-b1536dfd4f7c"
-      (reference "Q12") (unit 1) (value "PMOS_SOT23") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/357efaa5-6255-4fe0-9c6c-25aa8785237f"
+      (reference "Q?") (unit 2) (value "DMC2025UFDB") (footprint "")
     )
-    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/49907ab9-0e59-4f2c-9360-a9bd477707dd"
-      (reference "Q13") (unit 1) (value "PMOS_SOT23") (footprint "Package_TO_SOT_SMD:SOT-23")
+    (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/8e9246da-73c4-4861-bfdf-953c9e5e05c5"
+      (reference "Q?") (unit 2) (value "DMC2025UFDB") (footprint "")
     )
     (path "/2c7c4624-5556-4f0a-9902-0e418133e1f8"
       (reference "R1") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
