@@ -1495,10 +1495,10 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "SPI_CS_SDCARD" (shape input) (at 215.9 22.86 0) (fields_autoplaced)
+  (global_label "SPI_CS_FLASH" (shape input) (at 215.9 22.86 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid bf322f37-4f57-4b19-9b95-5adef726d33d)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 233.1902 22.9394 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 231.5574 22.7806 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
@@ -2953,9 +2953,6 @@
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/91efb45c-4099-45a5-86cf-2bdfd03c9e23"
       (reference "#PWR0112") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/d73cd4be-2523-4c44-8f7d-5b3e0b412f11"
-      (reference "#PWR0113") (unit 1) (value "+3.3V") (footprint "")
-    )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/8f206d15-b234-44d2-9f0b-5663775abcb3"
       (reference "#PWR0114") (unit 1) (value "VBUS") (footprint "")
     )
@@ -2967,9 +2964,6 @@
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/db04f4af-926b-4aa8-a59d-48a2059264b2"
       (reference "#PWR0117") (unit 1) (value "Earth") (footprint "")
-    )
-    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/3f2b9816-0353-4471-8753-8626d6dd2b30"
-      (reference "#PWR0118") (unit 1) (value "Earth") (footprint "")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/0dc485c2-a5e4-4981-b245-6e2aca26d21f"
       (reference "#PWR0119") (unit 1) (value "VBUS") (footprint "")
@@ -3100,6 +3094,27 @@
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/8ea19768-55e6-4506-ae7f-33194283ad2a"
       (reference "#PWR0161") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/5559a045-e4ae-42f2-a983-31fb54c63da9"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/6b45d24f-dc3b-4e4a-aa75-668025f5989d"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/88bb3a86-9d99-4b69-8476-d2cb2933a1ca"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/9209db1c-36ac-4b21-b8c5-6c41a553f73f"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/c25c290e-f2ba-498e-9371-ee2273e0ad18"
+      (reference "#PWR?") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/c3ad7fed-d4ca-46f3-9b18-90164da4d23f"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/ffd48dd1-45cf-4f09-a639-cd636b7d892b"
+      (reference "#PWR?") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/911c9e40-8d0a-4a95-a324-f646d3493355"
       (reference "ANT1") (unit 1) (value "TBD") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
@@ -3229,6 +3244,9 @@
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/3ad9e242-3293-49dd-9a86-c609234e3bcf"
       (reference "C42") (unit 1) (value "TBD") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
     )
+    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/31f6475a-1e9b-4bda-a878-78b0931b557f"
+      (reference "C?") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric_Pad0.74x0.62mm_HandSolder")
+    )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/fe4aa8de-26af-4479-a4c3-8e9e7477e9d5"
       (reference "D1") (unit 1) (value "TBD") (footprint "")
     )
@@ -3271,9 +3289,6 @@
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/d5754530-1e98-486a-8e5a-977de4a011bd"
       (reference "F4") (unit 1) (value "500mA") (footprint "Fuse:Fuse_1206_3216Metric_Pad1.42x1.75mm_HandSolder")
     )
-    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/015e4123-b7c0-4c56-8648-d728a8b12037"
-      (reference "FB1") (unit 1) (value "TBD") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/82aae44a-c9ee-4277-9258-adb407e6a613"
       (reference "IC1") (unit 1) (value "E22-900M22S") (footprint "KP-PTR_lib:E22-900M22S")
     )
@@ -3288,9 +3303,6 @@
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/ed569010-9483-41f9-9593-9fb3bab33022"
       (reference "J4") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "KP-PTR_lib:217B-BC02")
-    )
-    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/17c96f47-0016-4c9f-857d-3bc54b0121c5"
-      (reference "J5") (unit 1) (value "Micro_SD_Card_Det") (footprint "KP-PTR_lib:GCT_MEM2051-00-195-00-A")
     )
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/41ed2c25-0a33-432a-b218-19f5f06c4866"
       (reference "J6") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal")
@@ -3432,15 +3444,6 @@
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/db0c09fb-ffc7-40ad-a12a-7d061e659129"
       (reference "R33") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/9feeb532-0ec5-4f07-9c00-466d23e3de15"
-      (reference "R34") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/d85bf6e6-947e-43f6-9327-20010284babd"
-      (reference "R35") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
-    )
-    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/07496a18-a2c7-45e3-b4fe-9003d5feedce"
-      (reference "R36") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/8ffdbc98-c688-487b-bcfd-0655cc6eaf42"
       (reference "R37") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
