@@ -3611,7 +3611,7 @@
       (reference "J8") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal")
     )
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/323d2573-cea7-4fd0-8734-1ae808acd0e3"
-      (reference "J9") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal")
+      (reference "J9") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal")
     )
     (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/bbd03946-3c3d-46be-94da-642eed019370"
       (reference "J10") (unit 1) (value "Conn_01x10_Male") (footprint "Connector_JST:JST_GH_BM10B-GHS-TBT_1x10-1MP_P1.25mm_Vertical")
@@ -3638,28 +3638,28 @@
       (reference "LS1") (unit 1) (value "CBT-09427-SMT") (footprint "Buzzer_Beeper:Buzzer_12x9.5RM7.6")
     )
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/c33d0f7e-1fe6-4263-8371-03321a71eebc"
-      (reference "Q1") (unit 1) (value "DMC2025UFDB") (footprint "")
+      (reference "Q1") (unit 1) (value "DMC2025UFDB_v2") (footprint "KP-PTR_lib:DMC2025UFDB")
     )
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/357efaa5-6255-4fe0-9c6c-25aa8785237f"
-      (reference "Q1") (unit 2) (value "DMC2025UFDB") (footprint "")
+      (reference "Q1") (unit 2) (value "DMC2025UFDB_v2") (footprint "KP-PTR_lib:DMC2025UFDB")
     )
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/f24d1059-63b1-479b-b1a4-76f6ef826da9"
-      (reference "Q2") (unit 1) (value "DMC2025UFDB") (footprint "")
+      (reference "Q2") (unit 1) (value "DMC2025UFDB_v2") (footprint "KP-PTR_lib:DMC2025UFDB")
     )
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/1a38c62a-a590-4913-bbae-3d58dfdd375c"
-      (reference "Q2") (unit 2) (value "DMC2025UFDB") (footprint "")
+      (reference "Q2") (unit 2) (value "DMC2025UFDB_v2") (footprint "KP-PTR_lib:DMC2025UFDB")
     )
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/8c4b64bb-e884-431d-bb9e-e94e6b868d84"
-      (reference "Q3") (unit 1) (value "DMC2025UFDB") (footprint "")
+      (reference "Q3") (unit 1) (value "DMC2025UFDB_v2") (footprint "KP-PTR_lib:DMC2025UFDB")
     )
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/8e9246da-73c4-4861-bfdf-953c9e5e05c5"
-      (reference "Q3") (unit 2) (value "DMC2025UFDB") (footprint "")
+      (reference "Q3") (unit 2) (value "DMC2025UFDB_v2") (footprint "KP-PTR_lib:DMC2025UFDB")
     )
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/cf12cbe0-29c7-463b-9606-32f8fa4b7792"
-      (reference "Q4") (unit 1) (value "DMC2025UFDB") (footprint "")
+      (reference "Q4") (unit 1) (value "DMC2025UFDB_v2") (footprint "KP-PTR_lib:DMC2025UFDB")
     )
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/2ea5f82f-738e-4788-bb70-93af997ad6ed"
-      (reference "Q4") (unit 2) (value "DMC2025UFDB") (footprint "")
+      (reference "Q4") (unit 2) (value "DMC2025UFDB_v2") (footprint "KP-PTR_lib:DMC2025UFDB")
     )
     (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/5df71704-dd70-467a-9caa-8aedfabc86d8"
       (reference "Q5") (unit 1) (value "NMOS_SOT23") (footprint "Package_TO_SOT_SMD:SOT-23")
