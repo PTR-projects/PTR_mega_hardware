@@ -1178,6 +1178,11 @@
       (net 95 "Net-(IC1-Pad21)") (pinfunction "ANT") (pintype "output") (tstamp 9f7ebdbd-7042-4071-80c3-7ab04fac5b31))
     (pad "22" smd rect locked (at -7 9 90) (size 2 0.8) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "Earth") (pinfunction "GND") (pintype "power_in") (tstamp 1f9baa42-e71d-4974-9dd7-8602eb2c7b95))
+    (model "${KIPRJMOD}/3D models/E22-900M22S v2.step"
+      (offset (xyz -7 -10 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
@@ -1700,10 +1705,10 @@
       (net 161 "Net-(C15-Pad1)") (pinfunction "2") (pintype "passive") (tstamp cd7f2d4b-e6d5-40ed-b030-1bb6d0276c1c))
     (pad "4" smd rect (at -1.1 -0.8 90) (size 1.4 1.15) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "Earth") (pinfunction "GND") (pintype "power_in") (tstamp 0a098971-8170-4313-af7d-cc4b35a48563))
-    (model "C:/Users/bartek/Downloads/TSX-3225_16.0000MF18X-AC3/TSX-3225_16.0000MF18X-AC3.step"
+    (model "${KICAD6_3DMODEL_DIR}/Crystal.3dshapes/Crystal_SMD_3225-4Pin_3.2x2.5mm.step"
       (offset (xyz 0 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz -90 0 0))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -1965,6 +1970,11 @@
       (net 4 "+3V3") (pinfunction "VDDR") (pintype "bidirectional") (tstamp c355ca51-32bc-4d88-a250-07d5621dd709))
     (pad "16" smd rect (at -0.5 -1.225 180) (size 0.35 0.25) (layers "F.Cu" "F.Paste" "F.Mask")
       (net 1 "Earth") (pinfunction "GND") (pintype "bidirectional") (tstamp 119a2ba9-03f2-48af-8f1a-4a96cb25a3bf))
+    (model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-16_3x3mm_P0.5mm_LayoutBorder3x5y.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Capacitor_SMD:C_0402_1005Metric" (layer "F.Cu")
@@ -2089,10 +2099,10 @@
       (net 1 "Earth") (pinfunction "SHIELD") (pintype "passive") (tstamp 8b92f201-07d8-4821-a7c1-053fe8198e60))
     (pad "S1" thru_hole oval (at -1.35 4.36 90) (size 0.9 1.7) (drill oval 0.6 1.4) (layers *.Cu *.Mask)
       (net 1 "Earth") (pinfunction "SHIELD") (pintype "passive") (tstamp c31fb822-2ed0-43a7-a405-1e3d0205cd17))
-    (model "${KICAD6_3DMODEL_DIR}/Connector_USB.3dshapes/USB_C_Receptacle_GCT_USB4085.wrl"
-      (offset (xyz 0 0 0))
+    (model "${KIPRJMOD}/3D models/USB4085-GF-A--3DModel-STEP-1.step"
+      (offset (xyz 15 -4 1.6))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz -90 0 0))
     )
   )
 
@@ -2579,6 +2589,11 @@
       (net 9 "Net-(C25-Pad1)") (pinfunction "Post/OUT") (pintype "output") (tstamp c884feb5-afbc-4baf-9f12-868c0ed27bc9))
     (pad "11" smd rect (at 0 0 90) (size 1.24 2.13) (layers "F.Cu" "F.Mask")
       (net 1 "Earth") (pinfunction "GND") (pintype "power_in") (tstamp d633a4de-1388-46e7-ac55-24bd558a0816))
+    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/DFN-10-1EP_3x3mm_P0.5mm_EP1.55x2.48mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
@@ -3853,6 +3868,11 @@
       (net 4 "+3V3") (pinfunction "VDDA") (pintype "power_in") (tstamp 85ace60c-325f-4a6f-82df-128d2938ac9b))
     (pad "57" smd rect (at 0 0) (size 4 4) (layers "F.Cu" "F.Mask")
       (net 1 "Earth") (pinfunction "GND") (pintype "power_in") (tstamp ab8aca5d-6626-4a54-a7a1-80eaa831d1f5))
+    (model "${KICAD6_3DMODEL_DIR}/Package_DFN_QFN.3dshapes/QFN-56-1EP_7x7mm_P0.4mm_EP5.7x5.7mm.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
@@ -6464,6 +6484,11 @@
       (net 155 "unconnected-(U5-Pad17)") (pinfunction "NC") (pintype "no_connect") (tstamp 4b1dbc88-c8c5-476c-80ac-830e56684be9))
     (pad "18" smd oval locked (at 4.85 -4.4 270) (size 1.8 0.8) (layers "F.Cu" "F.Mask")
       (net 156 "unconnected-(U5-Pad18)") (pinfunction "FORCE_ON") (pintype "input+no_connect") (tstamp f587f477-194d-41ae-8a6d-91fbd85f9d3f))
+    (model "${KIPRJMOD}/3D models/ublox_max_m8.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "KP-PTR_lib:DMC2025UFDB" (layer "F.Cu")
@@ -8570,6 +8595,11 @@
       (net 16 "SPI_CLK") (pinfunction "SCL/SCK") (pintype "input") (tstamp 48e043ee-81ab-4e61-a81b-90a3d592bda8))
     (pad "14" smd roundrect (at -0.5 -0.91 180) (size 0.61 0.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.09)
       (net 15 "SPI_MOSI") (pinfunction "SDA/MOSI") (pintype "bidirectional") (tstamp 5c5eaa92-cce1-4c12-a008-9dfd9b3268d6))
+    (model "${KICAD6_3DMODEL_DIR}/Package_LGA.3dshapes/LGA-14_3x2.5mm_P0.5mm_LayoutBorder3x4y.step"
+      (offset (xyz 0 0 0))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 0 0))
+    )
   )
 
   (footprint "Resistor_SMD:R_0402_1005Metric" (layer "F.Cu")
