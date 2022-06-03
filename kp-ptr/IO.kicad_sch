@@ -2392,7 +2392,7 @@
     (property "Value" "Conn_01x02_Male" (id 1) (at 144.78 184.7849 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" (id 2) (at 143.51 182.245 0)
+    (property "Footprint" "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical" (id 2) (at 143.51 182.245 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (id 3) (at 143.51 182.245 0)

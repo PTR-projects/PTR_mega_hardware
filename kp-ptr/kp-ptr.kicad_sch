@@ -3590,7 +3590,7 @@
       (reference "J1") (unit 1) (value "ESP32_PROG_CON") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/2b5ee690-827e-4d0b-8695-fc01bee082bd"
-      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal")
+      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "Connector_JST:JST_GH_SM02B-GHS-TB_1x02-1MP_P1.25mm_Horizontal")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/5d25e769-e6cf-4fba-a7d3-844585a11bd8"
       (reference "J3") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal")
@@ -3611,7 +3611,7 @@
       (reference "J8") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical")
     )
     (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/df71bbaa-19f8-417e-858f-80538b2bdd40"
-      (reference "J9") (unit 1) (value "Conn_01x02_Male") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal")
+      (reference "J9") (unit 1) (value "Conn_01x02_Male") (footprint "Connector_JST:JST_GH_BM02B-GHS-TBT_1x02-1MP_P1.25mm_Vertical")
     )
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/41ed2c25-0a33-432a-b218-19f5f06c4866"
       (reference "J10") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MPT-0,5-2-2.54_1x02_P2.54mm_Horizontal")
