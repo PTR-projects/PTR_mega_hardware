@@ -612,7 +612,7 @@
     (property "Value" "DMC2025UFDB_v2" (id 1) (at 5.08 0 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "KP-PTR_lib:U-dfn2020-6 (type b)" (id 2) (at 5.08 -1.905 0)
+    (property "Footprint" "KP-PTR_lib:DMC2025UFDB" (id 2) (at 5.08 -1.905 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://www.irf.com/product-info/datasheets/data/irf7309ipbf.pdf" (id 3) (at 2.54 0 0)

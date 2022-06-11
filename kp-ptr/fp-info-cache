@@ -1,78 +1,337 @@
-18043948681510
-TerminalBlock_TE-Connectivity
-TerminalBlock_TE_1-282834-0_1x10_P2.54mm_Horizontal
-Terminal Block TE 1-282834-0, 10 pins, pitch 2.54mm, size 25.86x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
-THT Terminal Block TE 1-282834-0 pitch 2.54mm size 25.86x6.5mm^2 drill 1.1mm pad 2.1mm
+79128634903341
+KP-PTR_lib
+217B-BC02
+
+
 0
-10
-10
-TerminalBlock_TE-Connectivity
-TerminalBlock_TE_1-282834-1_1x11_P2.54mm_Horizontal
-Terminal Block TE 1-282834-1, 11 pins, pitch 2.54mm, size 28.4x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
-THT Terminal Block TE 1-282834-1 pitch 2.54mm size 28.4x6.5mm^2 drill 1.1mm pad 2.1mm
+30
+25
+KP-PTR_lib
+APAE1575 13x13x4mm GPS Patch Antenna
+
+
 0
-11
-11
-TerminalBlock_TE-Connectivity
-TerminalBlock_TE_1-282834-2_1x12_P2.54mm_Horizontal
-Terminal Block TE 1-282834-2, 12 pins, pitch 2.54mm, size 30.94x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
-THT Terminal Block TE 1-282834-2 pitch 2.54mm size 30.94x6.5mm^2 drill 1.1mm pad 2.1mm
-0
-12
-12
-TerminalBlock_TE-Connectivity
-TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal
-Terminal Block TE 282834-2, 2 pins, pitch 2.54mm, size 5.54x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
-THT Terminal Block TE 282834-2 pitch 2.54mm size 5.54x6.5mm^2 drill 1.1mm pad 2.1mm
-0
-2
-2
-TerminalBlock_TE-Connectivity
-TerminalBlock_TE_282834-3_1x03_P2.54mm_Horizontal
-Terminal Block TE 282834-3, 3 pins, pitch 2.54mm, size 8.08x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
-THT Terminal Block TE 282834-3 pitch 2.54mm size 8.08x6.5mm^2 drill 1.1mm pad 2.1mm
-0
-3
-3
-TerminalBlock_TE-Connectivity
-TerminalBlock_TE_282834-4_1x04_P2.54mm_Horizontal
-Terminal Block TE 282834-4, 4 pins, pitch 2.54mm, size 10.620000000000001x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
-THT Terminal Block TE 282834-4 pitch 2.54mm size 10.620000000000001x6.5mm^2 drill 1.1mm pad 2.1mm
+1
+1
+KP-PTR_lib
+AZ1117CH-5.0TRG1
+
+
 0
 4
 4
-TerminalBlock_TE-Connectivity
-TerminalBlock_TE_282834-5_1x05_P2.54mm_Horizontal
-Terminal Block TE 282834-5, 5 pins, pitch 2.54mm, size 13.16x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
-THT Terminal Block TE 282834-5 pitch 2.54mm size 13.16x6.5mm^2 drill 1.1mm pad 2.1mm
+KP-PTR_lib
+BUZZER CBT-09
+
+
 0
-5
-5
-TerminalBlock_TE-Connectivity
-TerminalBlock_TE_282834-6_1x06_P2.54mm_Horizontal
-Terminal Block TE 282834-6, 6 pins, pitch 2.54mm, size 15.7x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
-THT Terminal Block TE 282834-6 pitch 2.54mm size 15.7x6.5mm^2 drill 1.1mm pad 2.1mm
+2
+2
+KP-PTR_lib
+CAM-M8Q
+
+
 0
+31
+31
+KP-PTR_lib
+DMC2025UFDB
+
+
+0
+8
 6
-6
-TerminalBlock_TE-Connectivity
-TerminalBlock_TE_282834-7_1x07_P2.54mm_Horizontal
-Terminal Block TE 282834-7, 7 pins, pitch 2.54mm, size 18.240000000000002x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
-THT Terminal Block TE 282834-7 pitch 2.54mm size 18.240000000000002x6.5mm^2 drill 1.1mm pad 2.1mm
+KP-PTR_lib
+E22-900M22S
+
+
+0
+22
+22
+KP-PTR_lib
+ESP32-C3-MINI-1
+ESP32-C3-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
+ESP32-C3
+0
+61
+36
+KP-PTR_lib
+ESP32-C3-MINI-1U
+ESP32-C3-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
+ESP32-C3
+0
+61
+36
+KP-PTR_lib
+ESP32-C3-MINI-1_Hand-Soldering
+ESP32-C3-MINI-1: https://www.espressif.com/sites/default/files/documentation/esp32-c3-mini-1_datasheet_en.pdf
+ESP32-C3
+0
+61
+36
+KP-PTR_lib
+ESP32-C3-WROOM-02
+ESP32-C3-WROOM-02: https://www.espressif.com/sites/default/files/documentation/esp32-c3-wroom-02_datasheet_en.pdf
+ESP32-C3
+0
+27
+19
+KP-PTR_lib
+ESP32-S2-MINI-1
+ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
+ESP32-S2
+0
+73
+46
+KP-PTR_lib
+ESP32-S2-MINI-1U
+ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
+ESP32-S2
+0
+73
+46
+KP-PTR_lib
+ESP32-S2-MINI-1_Hand-Soldering
+ESP32-S2-MINI-1 and ESP32-S2-MINI-1U: https://www.espressif.com/sites/default/files/documentation/esp32-s2-mini-1_esp32-s2-mini-1u_datasheet_en.pdf
+ESP32-S2
+0
+73
+46
+KP-PTR_lib
+ESP32-S2-SOLO
+ESP32-S2-SOLO https://www.espressif.com/sites/default/files/documentation/esp32-s2-solo_esp32-s2-solo-u_datasheet_en.pdf
+esp32-s2 module
+0
+49
+41
+KP-PTR_lib
+ESP32-S2-Saola-1
+Espressif ESP32-S2-Saola-1 Development Kit: https://docs.espressif.com/projects/esp-idf/en/latest/esp32s2/hw-reference/esp32s2/user-guide-saola-1-v1.2.html
+esp32-s2 devkit
+0
+42
+42
+KP-PTR_lib
+ESP32-S2-WROOM
+ESP32-S2-WROOM and ESP32-S2-WROOM-I: https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf
+ESP32-S2
+0
+51
+43
+KP-PTR_lib
+ESP32-S2-WROVER
+ESP32-S2-WROVER and ESP32-S2-WROVER-I: https://www.espressif.com/sites/default/files/documentation/esp32-s2-wrover_esp32-s2-wrover-i_datasheet_en.pdf
+ESP32-S2
+0
+51
+43
+KP-PTR_lib
+ESP32-S3
+
+
+0
+57
+57
+KP-PTR_lib
+ESP32-S3-MINI-1
+ESP32-S3-MINI-1
+esp32-s3
+0
+73
+46
+KP-PTR_lib
+ESP32-S3-MINI-1U
+ESP32-S3-MINI-1 and ESP32-S3-MINI-1U
+esp32-s3
+0
+73
+46
+KP-PTR_lib
+ESP32-S3-WROOM-1
+ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
+esp32-s3
+0
+49
+41
+KP-PTR_lib
+ESP32-S3-WROOM-1U
+ESP32-S3-WROOM-1 is a powerful, generic Wi-Fi + Bluetooth LE MCU modules that have Dual core CPU , a rich set of peripherals, provides acceleration for neural network computing and signal processing workloads. They are an ideal choice for a wide variety of application scenarios related to AI + Internet of Things (AIoT), such as wake word detection and speech commands recognition , face detection and recognition, smart home, smart appliance, smart control panel, smart speaker etc.
+esp32-s3
+0
+49
+41
+KP-PTR_lib
+ESP32-WROOM-32E
+ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
+ESP32
+0
+47
+39
+KP-PTR_lib
+ESP32-WROOM-32UE
+ESP32-WROOM-32E and ESP32-WROOM-32UE: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
+ESP32
+0
+47
+39
+KP-PTR_lib
+ESP32-WROVER-E
+ESP32-WROVER-E: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
+esp32 module
+0
+47
+39
+KP-PTR_lib
+ESP32-WROVER-E_Thermal_Vias
+ESP32-WROVER-E: https://www.espressif.com/sites/default/files/documentation/esp32-wroom-32e_esp32-wroom-32ue_datasheet_en.pdf
+esp32 module
+0
+59
+39
+KP-PTR_lib
+EVA-M8
+
+
+0
+43
+43
+KP-PTR_lib
+GCT_MEM2051-00-195-00-A
+
+
+0
+13
+13
+KP-PTR_lib
+LDFM33PVR
+
+
 0
 7
 7
-TerminalBlock_TE-Connectivity
-TerminalBlock_TE_282834-8_1x08_P2.54mm_Horizontal
-Terminal Block TE 282834-8, 8 pins, pitch 2.54mm, size 20.78x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
-THT Terminal Block TE 282834-8 pitch 2.54mm size 20.78x6.5mm^2 drill 1.1mm pad 2.1mm
+KP-PTR_lib
+LIS331
+
+
+0
+16
+16
+KP-PTR_lib
+LSM6DSO32
+
+
+0
+14
+14
+KP-PTR_lib
+MMC5983MA
+
+
+0
+16
+16
+KP-PTR_lib
+MS5607
+
+
 0
 8
 8
-TerminalBlock_TE-Connectivity
-TerminalBlock_TE_282834-9_1x09_P2.54mm_Horizontal
-Terminal Block TE 282834-9, 9 pins, pitch 2.54mm, size 23.32x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity
-THT Terminal Block TE 282834-9 pitch 2.54mm size 23.32x6.5mm^2 drill 1.1mm pad 2.1mm
+KP-PTR_lib
+SON50P260X260X55-11N
+
+
+0
+11
+11
+KP-PTR_lib
+SON127P500X600X80-9N
+
+
 0
 9
 9
+KP-PTR_lib
+SOT95P275X110-6N
+
+
+0
+6
+6
+KP-PTR_lib
+U-dfn2020-6 (type b)
+
+
+0
+8
+8
+KP-PTR_lib
+WS2812B-2020
+
+
+0
+4
+4
+KP-PTR_lib
+XCVR_L76-L
+
+
+0
+18
+18
+KP-PTR_lib
+XCVR_L96-M33
+
+
+0
+31
+31
+KP-PTR_lib
+XTAL_TSX-3225_16.0000MF18X-AC3
+
+
+0
+4
+4
+KP-PTR_lib
+ublox_LEA
+ublox LEA 6/7/8, (https://www.u-blox.com/sites/default/files/LEA-M8S-M8T-FW3_HardwareIntegrationManual_%28UBX-15030060%29.pdf)
+GPS ublox LEA 6/7/8
+0
+28
+28
+KP-PTR_lib
+ublox_MAX
+ublox MAX 6/7/8, (https://www.u-blox.com/sites/default/files/MAX-8-M8-FW3_HardwareIntegrationManual_%28UBX-15030059%29.pdf)
+GPS ublox MAX 6/7/8
+0
+18
+18
+KP-PTR_lib
+ublox_NEO
+ublox NEO 6/7/8, (https://www.u-blox.com/sites/default/files/NEO-8Q-NEO-M8-FW3_HardwareIntegrationManual_%28UBX-15029985%29_0.pdf)
+GPS ublox NEO 6/7/8
+0
+24
+24
+KP-PTR_lib
+ublox_SAM-M8Q
+GPS Module, 15.5x15.5x6.3mm, https://www.u-blox.com/sites/default/files/SAM-M8Q_HardwareIntegrationManual_%28UBX-16018358%29.pdf
+ublox SAM-M8Q
+0
+100
+20
+KP-PTR_lib
+ublox_SAM-M8Q_HandSolder
+GPS Module, 15.5x15.5x6.3mm, https://www.u-blox.com/sites/default/files/SAM-M8Q_HardwareIntegrationManual_%28UBX-16018358%29.pdf
+ublox SAM-M8Q
+0
+20
+20
+KP-PTR_lib
+ublox_ZED
+ublox ZED-F9, https://www.u-blox.com/sites/default/files/ZED-F9P_DataSheet_%28UBX-17051259%29.pdf
+GPS GNSS ublox ZED
+0
+102
+55
