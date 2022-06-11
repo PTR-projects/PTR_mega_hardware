@@ -5,52 +5,6 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "Device:Antenna_Dipole" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "AE" (id 0) (at 1.27 1.27 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "Antenna_Dipole" (id 1) (at 1.27 0 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (id 2) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "dipole antenna" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Dipole antenna" (id 5) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "Antenna_Dipole_0_1"
-        (polyline
-          (pts
-            (xy 2.54 -3.81)
-            (xy 2.54 -2.54)
-            (xy 5.08 -2.54)
-            (xy 5.08 -1.27)
-            (xy -2.54 -1.27)
-            (xy -2.54 -2.54)
-            (xy 0 -2.54)
-            (xy 0 -3.81)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "Antenna_Dipole_1_1"
-        (pin input line (at 0 -5.08 90) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 2.54 -5.08 90) (length 2.54)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Device:C" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "C" (id 0) (at 0.635 2.54 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -2610,21 +2564,6 @@
     (pin "4" (uuid d986c021-0e98-4cc7-8967-0ca2ce1343b8))
   )
 
-  (symbol (lib_id "Device:Antenna_Dipole") (at 21.59 48.26 90) (mirror x) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
-    (uuid c5e587d4-4b5f-4f11-98c8-85e16edb877b)
-    (property "Reference" "ANT1" (id 0) (at 24.13 40.64 90))
-    (property "Value" "PCB_antenna" (id 1) (at 24.13 43.18 90))
-    (property "Footprint" "RF_Antenna:Texas_SWRA117D_2.4GHz_Right" (id 2) (at 21.59 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (id 3) (at 21.59 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8f51e67f-f03b-4d1f-8589-652a5c01659f))
-    (pin "2" (uuid 5967e2a6-558b-41aa-86ad-208f683e2c04))
-  )
-
   (symbol (lib_id "Device:C") (at 228.6 134.62 180) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid c89b4458-226c-4d7e-a120-959bbc00972c)
@@ -3118,9 +3057,6 @@
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/c03466d3-e68c-4b69-81b2-9c586f02ca09"
       (reference "#PWR094") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/c3bf1674-c93f-429b-8563-61b0f5c4ccb1"
-      (reference "#PWR095") (unit 1) (value "VDD") (footprint "")
-    )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/7bb5e69f-3880-4851-a3bd-776037b6dfcf"
       (reference "#PWR096") (unit 1) (value "Earth") (footprint "")
     )
@@ -3232,8 +3168,8 @@
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/f506b2d4-8f71-42a0-8f0b-465ff695958d"
       (reference "#PWR0132") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/076366eb-2387-4958-8268-f0b75b676a08"
-      (reference "#PWR0133") (unit 1) (value "Earth") (footprint "")
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/9e6cec5d-f256-43fd-a440-00c62c3aeb39"
+      (reference "#PWR0133") (unit 1) (value "+3.3V") (footprint "")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/5abbc442-e11e-4618-b087-a272d6c9eeca"
       (reference "#PWR0134") (unit 1) (value "Earth") (footprint "")
@@ -3361,14 +3297,14 @@
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/05226230-cdaa-4f32-bd74-cf6386b07708"
       (reference "#PWR0175") (unit 1) (value "Earth") (footprint "")
     )
-    (path "/c5e587d4-4b5f-4f11-98c8-85e16edb877b"
-      (reference "ANT1") (unit 1) (value "PCB_antenna") (footprint "RF_Antenna:Texas_SWRA117D_2.4GHz_Right")
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/862875ce-6e13-42bc-b8a6-de89301ff373"
+      (reference "#PWR0176") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/f5b611b5-22fb-4440-9afb-03e769af8b2d"
+      (reference "#PWR0177") (unit 1) (value "VCC") (footprint "")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/2b12b2d4-198b-4c76-b90a-d4d1638b8e72"
       (reference "ANT2") (unit 1) (value "APAE1575R1340ABDD6-T") (footprint "KP-PTR_lib:APAE1575 13x13x4mm GPS Patch Antenna")
-    )
-    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/911c9e40-8d0a-4a95-a324-f646d3493355"
-      (reference "ANT3") (unit 1) (value "TBD") (footprint "Resistor_SMD:R_0402_1005Metric_Pad0.72x0.64mm_HandSolder")
     )
     (path "/8ef1d6c2-9afb-467f-94f0-2a571e5715a1"
       (reference "C1") (unit 1) (value "4pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -3448,9 +3384,6 @@
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/cb8b5a4d-f53c-4fdd-bbba-ccb732fe5d61"
       (reference "C26") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
-    (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/5e346ddf-4399-45f3-970a-1479f18e976f"
-      (reference "C27") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric")
-    )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/f96866fb-2dc5-44d0-95c9-2f03b948fe38"
       (reference "C28") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -3470,7 +3403,7 @@
       (reference "C33") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/ceb2713e-b9d7-42d2-af1c-a38a6fc43b0d"
-      (reference "C34") (unit 1) (value "TBD") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C34") (unit 1) (value "TBD") (footprint "Capacitor_SMD:CP_Elec_10x10")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/b3fe89b5-5813-4c35-a55a-fe0f40d2e320"
       (reference "C35") (unit 1) (value "10u") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -3524,7 +3457,7 @@
       (reference "D1") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/ffd6a983-4822-4f37-978e-177b7febe08c"
-      (reference "D2") (unit 1) (value "TBD") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D2") (unit 1) (value "TBD") (footprint "Diode_SMD:D_0402_1005Metric")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/55b5f7c1-9e27-4de8-8da9-4ddd7c634c2f"
       (reference "D3") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-123")
@@ -3545,7 +3478,7 @@
       (reference "D8") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/94e53db9-ffab-45c9-951c-83988bceb04a"
-      (reference "D9") (unit 1) (value "TBD") (footprint "Diode_SMD:D_SOD-123")
+      (reference "D9") (unit 1) (value "TBD") (footprint "Diode_SMD:D_0402_1005Metric")
     )
     (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/7419015c-d6f5-473a-81b5-0c1550cbc74a"
       (reference "D10") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
@@ -3599,10 +3532,10 @@
       (reference "J3") (unit 1) (value "Conn_01x02") (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/ed569010-9483-41f9-9593-9fb3bab33022"
-      (reference "J4") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "Connector_USB:USB_C_Receptacle_GCT_USB4085")
+      (reference "J4") (unit 1) (value "USB_C_Receptacle_USB2.0") (footprint "KP-PTR_lib:USB_C_213716")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/51441429-c522-44d6-becc-0386208970a8"
-      (reference "J5") (unit 1) (value "u.fl") (footprint "Connector_Coaxial:U.FL_Hirose_U.FL-R-SMT-1_Vertical")
+      (reference "J5") (unit 1) (value "u.fl") (footprint "Connector_Coaxial:SMA_Amphenol_132289_EdgeMount")
     )
     (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/c390b41f-5a60-4177-8299-f081c7daef82"
       (reference "J6") (unit 1) (value "Conn_01x06_Male") (footprint "Connector_JST:JST_GH_BM06B-GHS-TBT_1x06-1MP_P1.25mm_Vertical")
@@ -3728,7 +3661,7 @@
       (reference "R20") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/51187671-afc4-4b52-80d4-111c6700a75a"
-      (reference "R21") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R21") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_1206_3216Metric")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/0bae5ae7-8423-4396-8155-8b7564351343"
       (reference "R22") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -3745,8 +3678,8 @@
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/42e6c123-deaa-49d0-9568-19cbdde78d54"
       (reference "R26") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/db0c09fb-ffc7-40ad-a12a-7d061e659129"
-      (reference "R27") (unit 1) (value "100k") (footprint "Resistor_SMD:R_0402_1005Metric")
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/2550be30-43c7-4aff-b035-90fec992dc6d"
+      (reference "R27") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/eebca155-80f9-46f5-916f-1a12a740217b"
       (reference "R28") (unit 1) (value "2k2") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -3760,11 +3693,8 @@
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/a0f072bb-0652-4120-ad33-d69336ad9d70"
       (reference "R31") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
-    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/96060ebb-a1ce-4017-966f-a8a530fafaf5"
-      (reference "R32") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
-    )
-    (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/ac606df2-b12e-4b6f-b98c-485616a18436"
-      (reference "R33") (unit 1) (value "0R") (footprint "Resistor_SMD:R_0402_1005Metric")
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/4ec3a6b7-bbcd-44f9-bc96-f5fd8d503e96"
+      (reference "R32") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/731faaa8-00a4-4456-82f6-d47cf24c2880"
       (reference "R34") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
