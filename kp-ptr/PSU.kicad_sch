@@ -1309,7 +1309,7 @@
     (property "Value" "500mA" (id 1) (at 180.34 98.4249 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Fuse:Fuse_1210_3225Metric" (id 2) (at 181.61 102.235 0)
+    (property "Footprint" "Fuse:Fuse_1206_3216Metric" (id 2) (at 181.61 102.235 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "~" (id 3) (at 182.88 97.155 0)
