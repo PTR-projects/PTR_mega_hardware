@@ -1850,7 +1850,7 @@
     (property "Reference" "C12" (id 0) (at 201.93 109.2199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1uF" (id 1) (at 201.93 111.7599 0)
+    (property "Value" "100n" (id 1) (at 201.93 111.7599 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 199.0852 114.3 0)
@@ -1973,7 +1973,7 @@
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 2c33db4f-af1d-4a86-86ba-9b8ded8eb201)
     (property "Reference" "U1" (id 0) (at 140.335 40.64 0))
-    (property "Value" "ESP32-S3FN8" (id 1) (at 140.335 43.18 0))
+    (property "Value" "ESP32-S3" (id 1) (at 140.335 43.18 0))
     (property "Footprint" "KP-PTR_lib:ESP32-S3" (id 2) (at 140.97 137.16 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3492,7 +3492,7 @@
       (reference "C11") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/110ce750-0b6b-4572-b83f-b69947a7115a"
-      (reference "C12") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C12") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/eda7ab28-f15e-4843-8b72-b751192c625a"
       (reference "C13") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -3987,7 +3987,7 @@
       (reference "R73") (unit 1) (value "2k5") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/2c33db4f-af1d-4a86-86ba-9b8ded8eb201"
-      (reference "U1") (unit 1) (value "ESP32-S3FN8") (footprint "KP-PTR_lib:ESP32-S3")
+      (reference "U1") (unit 1) (value "ESP32-S3") (footprint "KP-PTR_lib:ESP32-S3")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/b011a8e5-603a-4eb5-8953-5b7ab140e1eb"
       (reference "U2") (unit 1) (value "MS560702BA03-50") (footprint "KP-PTR_lib:MS5607")
