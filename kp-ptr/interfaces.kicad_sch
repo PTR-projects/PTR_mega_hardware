@@ -2021,7 +2021,7 @@
     (property "Value" "W25Q256" (id 1) (at 113.7794 90.17 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "KP-PTR_lib:SON127P500X600X80-9N" (id 2) (at 111.76 100.33 0)
+    (property "Footprint" "KP-PTR_lib:SON127P800X600X80-9N-D" (id 2) (at 111.76 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://www.winbond.com/resource-files/w25q128jv_dtr%20revc%2003272018%20plus.pdf" (id 3) (at 111.76 100.33 0)

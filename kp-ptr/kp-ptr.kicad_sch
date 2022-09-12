@@ -4029,7 +4029,7 @@
       (reference "U10") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/835aef12-4bff-4866-8baa-53c89c7073f7"
-      (reference "U11") (unit 1) (value "W25Q256") (footprint "KP-PTR_lib:SON127P500X600X80-9N")
+      (reference "U11") (unit 1) (value "W25Q256") (footprint "KP-PTR_lib:SON127P800X600X80-9N-D")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/1c848c44-17b3-4d34-873f-72b55ac056a2"
       (reference "U12") (unit 1) (value "NL27WZU04DBVT1G") (footprint "KP-PTR_lib:SOT95P275X110-6N")
