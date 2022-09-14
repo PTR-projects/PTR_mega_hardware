@@ -1,11 +1,11 @@
 (footprint "INDPM4442X200N" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 0)
+  (tedit 63221F74)
   (descr "MWSA0402")
   (tags "Inductor")
   (attr smd)
-  (fp_text reference "L**" (at 0 0) (layer "F.SilkS")
-    (effects (font (size 1.27 1.27) (thickness 0.254)))
+  (fp_text reference "L**" (at -1.143 -2.794) (layer "F.SilkS")
+    (effects (font (size 0.7 0.7) (thickness 0.15)))
     (tstamp b06ce446-c27e-47df-a4e3-d10b64552c26)
   )
   (fp_text value "INDPM4442X200N" (at 0 0) (layer "F.SilkS") hide
@@ -28,7 +28,7 @@
   (fp_line (start 2.2 -2.1) (end 2.2 2.1) (layer "F.Fab") (width 0.1) (tstamp f6ee98b5-4773-4eeb-a825-33c1705abace))
   (pad "1" smd rect (at -1.95 0) (size 1.9 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp 681bd495-c396-44ce-92bd-4b397cd48c04))
   (pad "2" smd rect (at 1.95 0) (size 1.9 2.2) (layers "F.Cu" "F.Paste" "F.Mask") (tstamp be0953c0-632d-4dd2-85e9-4d41239f22d2))
-  (model "MWSA0402S-3R3MT.stp"
+  (model "${KIPRJMOD}/3D models/MWSA0402S-2R2MT.stp"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
     (rotate (xyz 0 0 0))

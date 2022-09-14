@@ -3452,6 +3452,33 @@
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/05226230-cdaa-4f32-bd74-cf6386b07708"
       (reference "#PWR0189") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/0ed08797-0ef7-425e-85d7-9d4728c5a37f"
+      (reference "#PWR0190") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/6fbeea97-c3f0-4283-b408-a770acacde6f"
+      (reference "#PWR0192") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/5aa262bf-6e6b-4248-9822-4ef9e929f084"
+      (reference "#PWR0193") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/2e64a9cb-5bf9-417f-9095-89375b850903"
+      (reference "#PWR0194") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/46763b2d-b394-4ecf-ad2c-d92cdb4d6b7d"
+      (reference "#PWR0195") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/48c221d1-d7c9-4eaf-8460-30ffdf33c5df"
+      (reference "#PWR0196") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/4634369a-45be-4f1c-a0ca-3a6e918058bf"
+      (reference "#PWR0197") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/a9c47456-50be-485f-b920-a59c7ad6d78c"
+      (reference "#PWR0198") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/a83e9131-1002-4ff2-9177-5e3bc9b61d9b"
+      (reference "#PWR?") (unit 1) (value "VDD") (footprint "")
+    )
     (path "/4247b454-2825-495d-a5d7-a6d4965d376a"
       (reference "AE1") (unit 1) (value "Antenna_Chip") (footprint "KP-PTR_lib:AMCA31-2R450G-S1F-T3")
     )
@@ -3620,6 +3647,18 @@
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/b1d14b61-bb38-416c-a720-ce3de4a5d524"
       (reference "C54") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/65f5a101-58a6-430a-8bcc-3d1153071ff9"
+      (reference "C55") (unit 1) (value "10uF 6V3") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/b1ec1332-8c12-43e4-87a1-6726d7ef92d0"
+      (reference "C56") (unit 1) (value "10uF 6V3") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/6e78c29d-cb57-455c-aad8-c467cc022495"
+      (reference "C57") (unit 1) (value "10uF 16V") (footprint "Capacitor_SMD:C_0603_1608Metric")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/2de207c9-9c33-4eda-813e-68639dee740f"
+      (reference "C58") (unit 1) (value "390pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/c0e01ba5-ed56-4572-a513-e7708605b1ff"
       (reference "D1") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
@@ -3689,6 +3728,9 @@
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/82aae44a-c9ee-4277-9258-adb407e6a613"
       (reference "IC1") (unit 1) (value "E22-900M22S") (footprint "KP-PTR_lib:E22-900M22S")
     )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/8c9be223-3e3b-4263-be76-100d6db5c98e"
+      (reference "IC2") (unit 1) (value "TPS62140ARGTR") (footprint "KP-PTR_lib:QFN50P300X300X100-17N-D")
+    )
     (path "/a069c936-1b73-4515-a7dd-c3cee8aa8158"
       (reference "J1") (unit 1) (value "ESP32_PROG_CON") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical")
     )
@@ -3736,6 +3778,9 @@
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/4255a2b2-c667-497c-8694-71ada229b2f2"
       (reference "L3") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0402_1005Metric")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/eafe2b3b-29a9-4552-bf6b-b6b9a49759ba"
+      (reference "L4") (unit 1) (value "MWSA0402S-2R2MT") (footprint "KP-PTR_lib:INDPM4442X200N")
     )
     (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/1c4d2f52-e408-46ad-be0f-4c3886bacf3a"
       (reference "LS1") (unit 1) (value "CBT-09427-SMT") (footprint "Buzzer_Beeper:Buzzer_12x9.5RM7.6")
@@ -3997,6 +4042,12 @@
     )
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/bb585b26-cbda-48fd-b2ee-dc633f419b04"
       (reference "R73") (unit 1) (value "2k5") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/40f1fe21-813f-46d5-8590-192f81966584"
+      (reference "R74") (unit 1) (value "562k 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/432a6cc6-fa1b-4a12-a5bc-555c3130a65e"
+      (reference "R75") (unit 1) (value "180k 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/2c33db4f-af1d-4a86-86ba-9b8ded8eb201"
       (reference "U1") (unit 1) (value "ESP32-S3") (footprint "KP-PTR_lib:ESP32-S3")
