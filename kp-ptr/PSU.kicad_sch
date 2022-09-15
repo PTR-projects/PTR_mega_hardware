@@ -2263,7 +2263,7 @@
   (symbol (lib_id "power:VDD") (at 85.725 130.81 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid a83e9131-1002-4ff2-9177-5e3bc9b61d9b)
-    (property "Reference" "#PWR?" (id 0) (at 85.725 134.62 0)
+    (property "Reference" "#PWR0199" (id 0) (at 85.725 134.62 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "VDD" (id 1) (at 85.725 127 0))
