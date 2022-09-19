@@ -3664,6 +3664,63 @@
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/05226230-cdaa-4f32-bd74-cf6386b07708"
       (reference "#PWR0201") (unit 1) (value "Earth") (footprint "")
     )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/469b81f2-e9c3-4ca2-9b2c-30b605d969b2"
+      (reference "#PWR0202") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/15df6cca-cec0-4899-96c1-d36df03f1224"
+      (reference "#PWR0203") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/463eb3cc-2c51-4954-b027-b5a085ff4cb7"
+      (reference "#PWR0204") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/133e6912-9ee7-43a2-8f80-7ace404dfd3c"
+      (reference "#PWR0205") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/a3b1c158-ea11-4b21-b7f6-b1ed169a61ed"
+      (reference "#PWR0206") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/a89e8b0e-7e89-4c8f-87b5-33ad256475b9"
+      (reference "#PWR0207") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/814a8a81-8386-4cc8-8eaf-ece8efe3b5c6"
+      (reference "#PWR0208") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/71adfd35-7450-4b04-889e-c7ed588323c6"
+      (reference "#PWR0209") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/d964cfed-b4ef-4e68-92d4-8c61a0859467"
+      (reference "#PWR0210") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/cb354f3b-7743-4bc2-907f-a7c10291e9b5"
+      (reference "#PWR0211") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/77727b07-dda0-4a68-9037-7686bc0934b2"
+      (reference "#PWR0212") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/a230932c-5335-4c1d-b672-0807e917c3f1"
+      (reference "#PWR0213") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/e43f52d2-c271-4f55-97e7-b80e024289cf"
+      (reference "#PWR0214") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/5b263a85-0885-4b89-995d-1b7696c93fe3"
+      (reference "#PWR0215") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/c2bfed36-a352-4fa1-b499-53199a4c144d"
+      (reference "#PWR0216") (unit 1) (value "+3.3V") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/b9ed08cc-6637-42f3-ae83-2d15a25806ef"
+      (reference "#PWR0217") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/0a0032d9-6e5c-4480-90f9-0dcb5afdc86f"
+      (reference "#PWR0218") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/ab0fe2da-71cb-4c31-9beb-75d40d659007"
+      (reference "#PWR0219") (unit 1) (value "Earth") (footprint "")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/f204c1b0-52e4-42b3-9f93-f5862090d7f1"
+      (reference "#PWR0220") (unit 1) (value "Earth") (footprint "")
+    )
     (path "/4247b454-2825-495d-a5d7-a6d4965d376a"
       (reference "AE1") (unit 1) (value "Antenna_Chip") (footprint "KP-PTR_lib:AMCA31-2R450G-S1F-T3")
     )
@@ -3782,7 +3839,7 @@
       (reference "C37") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/ceb2713e-b9d7-42d2-af1c-a38a6fc43b0d"
-      (reference "C38") (unit 1) (value "TBD") (footprint "Capacitor_SMD:CP_Elec_10x10")
+      (reference "C38") (unit 1) (value "220uF 16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/d1fc4233-996a-45af-b04d-442558cec140"
       (reference "C39") (unit 1) (value "10n") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -3844,6 +3901,27 @@
     (path "/6b0b54eb-96fb-4a56-9d20-0b579f8bbc83/3ad9e242-3293-49dd-9a86-c609234e3bcf"
       (reference "C58") (unit 1) (value "1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/24bf3afb-19e1-42de-b0e3-4755cb5378ca"
+      (reference "C59") (unit 1) (value "220uF 16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/e2d49bee-68d3-4e30-8016-3c028eba9d8e"
+      (reference "C60") (unit 1) (value "220uF 16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D")
+    )
+    (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/e101acdb-3367-4990-96d3-0d88fede9b34"
+      (reference "C61") (unit 1) (value "220uF 16V") (footprint "Capacitor_Tantalum_SMD:CP_EIA-7343-31_Kemet-D")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/9fccb82a-df61-474a-9827-a5ef88302378"
+      (reference "C62") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/3cceefda-4442-4b19-a320-dadeabbc5917"
+      (reference "C63") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/495b2993-6322-4f8d-9fde-c179e363dafe"
+      (reference "C64") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/a5da6840-50f5-4765-a9a0-aff1cbf0a9a9"
+      (reference "C65") (unit 1) (value "100nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/c0e01ba5-ed56-4572-a513-e7708605b1ff"
       (reference "D1") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
@@ -3888,6 +3966,18 @@
     )
     (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/7419015c-d6f5-473a-81b5-0c1550cbc74a"
       (reference "D15") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/756827ed-712a-45c9-ae4c-3582ec9796b1"
+      (reference "D16") (unit 1) (value "WS2812B-2020") (footprint "KP-PTR_lib:WS2812B-2020")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/b7078d54-064c-41b4-9f27-13b2f6f84950"
+      (reference "D17") (unit 1) (value "WS2812B-2020") (footprint "KP-PTR_lib:WS2812B-2020")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/717c6736-2a95-4424-a35e-11020ba9e52f"
+      (reference "D18") (unit 1) (value "WS2812B-2020") (footprint "KP-PTR_lib:WS2812B-2020")
+    )
+    (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/731e9a87-920a-426a-adef-5180e8fb690d"
+      (reference "D19") (unit 1) (value "WS2812B-2020") (footprint "KP-PTR_lib:WS2812B-2020")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/413bd791-2789-4ff7-be50-3aae609090d4"
       (reference "F1") (unit 1) (value "500mA") (footprint "Fuse:Fuse_1206_3216Metric")
