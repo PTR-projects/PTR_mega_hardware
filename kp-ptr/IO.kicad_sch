@@ -2154,7 +2154,7 @@
     (property "Reference" "D15" (id 0) (at 45.72 160.9724 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Value" "LED" (id 1) (at 45.72 163.5124 90)
+    (property "Value" "GREEN" (id 1) (at 45.72 163.5124 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Footprint" "LED_SMD:LED_0603_1608Metric" (id 2) (at 42.545 160.655 0)

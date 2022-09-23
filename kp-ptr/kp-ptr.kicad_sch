@@ -1338,6 +1338,10 @@
     (uuid ff305c44-9eb4-4af4-8e09-b93560625c3f)
   )
 
+  (text "Optymalnie:\n4pF - 1.8nH - 5pF" (at 41.275 40.64 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 18862061-0719-4bae-9ceb-1d2e907725bf)
+  )
   (text "https://www.espressif.com/sites/default/files/documentation/esp32-s3_hardware_design_guidelines_en.pdf\nhttps://dl.espressif.com/dl/SCH_ESP32-S3-DEVKITC-1_V1_20210312C.pdf\nhttps://www.espressif.com/sites/default/files/documentation/esp32-s3-wroom-1_wroom-1u_datasheet_en.pdf"
     (at 60.96 21.59 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
@@ -1883,10 +1887,10 @@
   )
 
   (symbol (lib_id "Device:L") (at 86.36 125.73 90) (unit 1)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid 0b968d3c-2563-4a21-9c01-33df722d100e)
-    (property "Reference" "L2" (id 0) (at 86.36 119.38 90))
-    (property "Value" "2nH" (id 1) (at 86.36 121.92 90))
+    (property "Reference" "L2" (id 0) (at 86.36 120.65 90))
+    (property "Value" "3.9nH" (id 1) (at 86.36 123.19 90))
     (property "Footprint" "Inductor_SMD:L_0402_1005Metric" (id 2) (at 86.36 125.73 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -2521,7 +2525,7 @@
     (property "Reference" "C1" (id 0) (at 48.26 50.7999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "4pF" (id 1) (at 48.26 53.3399 0)
+    (property "Value" "3.3pF" (id 1) (at 48.26 53.3399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 45.4152 55.88 0)
@@ -2611,7 +2615,7 @@
     (property "Reference" "C2" (id 0) (at 59.69 50.7999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "5pF" (id 1) (at 59.69 53.3399 0)
+    (property "Value" "4.7pF" (id 1) (at 59.69 53.3399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 56.8452 55.88 0)
@@ -3728,10 +3732,10 @@
       (reference "ANT1") (unit 1) (value "APAE1575R1340ABDD6-T") (footprint "KP-PTR_lib:APAE1575 13x13x4mm GPS Patch Antenna")
     )
     (path "/8ef1d6c2-9afb-467f-94f0-2a571e5715a1"
-      (reference "C1") (unit 1) (value "4pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C1") (unit 1) (value "3.3pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/9fcdb267-77a5-4e61-b2de-f64dc52ca3df"
-      (reference "C2") (unit 1) (value "5pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C2") (unit 1) (value "4.7pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/110ce750-0b6b-4572-b83f-b69947a7115a"
       (reference "C3") (unit 1) (value "100n") (footprint "Capacitor_SMD:C_0402_1005Metric")
@@ -3860,7 +3864,7 @@
       (reference "C44") (unit 1) (value "10uF 16V") (footprint "Capacitor_SMD:C_0603_1608Metric")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/2de207c9-9c33-4eda-813e-68639dee740f"
-      (reference "C45") (unit 1) (value "390pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C45") (unit 1) (value "470pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/6c16042f-ade1-413e-a421-4ab855737deb"
       (reference "C46") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -3938,19 +3942,19 @@
       (reference "D4") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/0c823417-32f1-463d-9866-2207d5ddc049"
-      (reference "D5") (unit 1) (value "G") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D5") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/2276f1f5-93b0-425f-83ff-bcbfd5842553"
-      (reference "D6") (unit 1) (value "G") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D6") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/cf119e5f-57a5-45a3-9444-d091235884b3"
-      (reference "D7") (unit 1) (value "G") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D7") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/94e53db9-ffab-45c9-951c-83988bceb04a"
       (reference "D8") (unit 1) (value "TBD") (footprint "Diode_SMD:D_0402_1005Metric")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/db5a8438-b89c-4b0b-b76a-192cb9089c1f"
-      (reference "D9") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D9") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/f1919372-4fb4-4ad7-b8a4-d25a131d4571"
       (reference "D10") (unit 1) (value "WS2812B-2020") (footprint "KP-PTR_lib:WS2812B-2020")
@@ -3968,7 +3972,7 @@
       (reference "D14") (unit 1) (value "1N4148") (footprint "Diode_SMD:D_SOD-123")
     )
     (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/7419015c-d6f5-473a-81b5-0c1550cbc74a"
-      (reference "D15") (unit 1) (value "LED") (footprint "LED_SMD:LED_0603_1608Metric")
+      (reference "D15") (unit 1) (value "GREEN") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/68d9bec4-a8fa-482b-99d8-a42578238d37/756827ed-712a-45c9-ae4c-3582ec9796b1"
       (reference "D16") (unit 1) (value "WS2812B-2020") (footprint "KP-PTR_lib:WS2812B-2020")
@@ -3998,13 +4002,13 @@
       (reference "F5") (unit 1) (value "500mA") (footprint "Fuse:Fuse_1206_3216Metric")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/267f3f5c-5986-42a8-90e0-9867572b9498"
-      (reference "FB1") (unit 1) (value "200mA") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "FB1") (unit 1) (value "GZ1608D601TF") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/aa98c128-9952-4c14-a652-c12ef28a16e3"
-      (reference "FB2") (unit 1) (value "1000mA") (footprint "Resistor_SMD:R_0603_1608Metric")
+      (reference "FB2") (unit 1) (value "GZ1608D601TF") (footprint "Resistor_SMD:R_0603_1608Metric")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/8c9be223-3e3b-4263-be76-100d6db5c98e"
-      (reference "IC1") (unit 1) (value "TPS62140ARGTR") (footprint "KP-PTR_lib:QFN50P300X300X100-17N-D")
+      (reference "IC1") (unit 1) (value "TPS62140RGTR") (footprint "KP-PTR_lib:QFN50P300X300X100-17N-D")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/82aae44a-c9ee-4277-9258-adb407e6a613"
       (reference "IC2") (unit 1) (value "E22-900M22S") (footprint "KP-PTR_lib:E22-900M22S")
@@ -4049,7 +4053,7 @@
       (reference "L1") (unit 1) (value "1.8nH") (footprint "Inductor_SMD:L_0402_1005Metric")
     )
     (path "/0b968d3c-2563-4a21-9c01-33df722d100e"
-      (reference "L2") (unit 1) (value "2nH") (footprint "Inductor_SMD:L_0402_1005Metric")
+      (reference "L2") (unit 1) (value "3.9nH") (footprint "Inductor_SMD:L_0402_1005Metric")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/4255a2b2-c667-497c-8694-71ada229b2f2"
       (reference "L3") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0402_1005Metric")
@@ -4157,7 +4161,7 @@
       (reference "R19") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/cd4ecd76-e91e-4533-a74a-34ce1b622583"
-      (reference "R20") (unit 1) (value "4k7") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R20") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/d1275fb6-d548-486b-a6ee-dbd1cec8a8ca"
       (reference "R21") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4196,10 +4200,10 @@
       (reference "R33") (unit 1) (value "10k 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/40f1fe21-813f-46d5-8590-192f81966584"
-      (reference "R34") (unit 1) (value "562k 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R34") (unit 1) (value "470k 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/432a6cc6-fa1b-4a12-a5bc-555c3130a65e"
-      (reference "R35") (unit 1) (value "180k 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R35") (unit 1) (value "150k 1%") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/c794e615-91d9-4c55-bccb-75991bf3c5d7"
       (reference "R36") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4370,7 +4374,7 @@
       (reference "U11") (unit 1) (value "USBLC6-2SC6") (footprint "Package_TO_SOT_SMD:SOT-23-6")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/1c848c44-17b3-4d34-873f-72b55ac056a2"
-      (reference "U12") (unit 1) (value "NL27WZU04DBVT1G") (footprint "KP-PTR_lib:SOT95P275X110-6N")
+      (reference "U12") (unit 1) (value "NL27WZU04DBVT1G") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/835aef12-4bff-4866-8baa-53c89c7073f7"
       (reference "U13") (unit 1) (value "W25Q256") (footprint "KP-PTR_lib:SON127P800X600X80-9N-D")
