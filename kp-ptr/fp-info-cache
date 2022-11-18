@@ -1,4 +1,4 @@
-19907327341572895
+19900666984146737
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -55853,13 +55853,6 @@ GCT_MEM2051-00-195-00-A
 13
 13
 KP-PTR_lib
-INDPM4442X200N
-MWSA0402
-Inductor
-0
-2
-2
-KP-PTR_lib
 LDFM33PVR
 
 
@@ -55895,13 +55888,6 @@ MS5607
 8
 8
 KP-PTR_lib
-QFN50P300X300X100-17N-D
-RGT0016C height 1
-Integrated Circuit
-0
-17
-17
-KP-PTR_lib
 SON50P260X260X55-11N
 
 
@@ -55915,20 +55901,6 @@ SON127P500X600X80-9N
 0
 9
 9
-KP-PTR_lib
-SON127P800X600X80-9N-D
-W25Q256JVEIQ
-Integrated Circuit
-0
-9
-9
-KP-PTR_lib
-SOT-23
-SOT, 3 Pin (https://www.jedec.org/system/files/docs/to-236h.pdf variant AB), generated with kicad-footprint-generator ipc_gullwing_generator.py
-SOT TO_SOT_SMD
-0
-3
-3
 KP-PTR_lib
 SOT95P275X110-6N
 

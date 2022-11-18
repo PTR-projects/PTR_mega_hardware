@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "KP-PTR")
+    (date "2022-11-18")
+    (rev "1")
+    (company "Polskie Towarzystwo Rakietowe")
+    (comment 1 "bartekM, FlyingBanana, Kretu, Red Labs, Stachu M, U.S. air force i inni")
+  )
+
   (lib_symbols
     (symbol "Connector_Generic:Conn_01x02" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
