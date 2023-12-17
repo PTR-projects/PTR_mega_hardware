@@ -6,8 +6,8 @@
 
   (title_block
     (title "KP-PTR")
-    (date "2022-11-18")
-    (rev "1")
+    (date "2023-12-10")
+    (rev "1.1")
     (company "Polskie Towarzystwo Rakietowe")
     (comment 1 "bartekM, FlyingBanana, Kretu, Red Labs, Stachu M, U.S. air force i inni")
   )
@@ -1355,6 +1355,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 44df789f-501a-4fe6-b823-fff8131423e2)
   )
+  (text "I2C - warning! GPIO15 and GPIO16 \nhave startup low level glitch (60us)!\nCould hang I2C bus!"
+    (at 240.03 113.03 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 61ca89c0-8ecc-4604-8ce4-319ad9cdb206)
+  )
   (text "50 Ohm" (at 71.12 48.26 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 62db8e3b-6561-4e26-83c3-14528f0b407d)
@@ -1371,8 +1376,7 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 946fb3a0-84d9-463f-aba7-3f78f94e3372)
   )
-  (text "Strapping pins <-- nie zmieniać, bo będzie problem"
-    (at 207.01 97.79 0)
+  (text "Strapping pins <-- use with cautious" (at 207.01 97.79 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid bd8154d2-ac8d-4bd8-a07c-575a70589aa9)
   )
@@ -1578,13 +1582,6 @@
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
-  (global_label "IO46" (shape input) (at 125.73 149.225 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 76afec14-f63b-4e27-bc22-d2536e90eefc)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 118.9626 149.3044 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "I2C_SDA" (shape input) (at 175.26 111.76 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 81703e10-95f2-41ef-acb5-a29c9b21a65e)
@@ -1641,25 +1638,11 @@
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
   )
-  (global_label "IO0" (shape input) (at 125.73 151.765 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 994849b0-18a6-4c63-9d26-59e8363a3690)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 120.1721 151.6856 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
   (global_label "IO43" (shape input) (at 65.405 111.76 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 9d729345-b57f-43d2-b31e-bd5e8084e673)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 72.1724 111.6806 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
-    )
-  )
-  (global_label "IO43" (shape input) (at 127 154.305 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid 9e867a18-b31a-4330-a940-7c8f2ef18d86)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 120.2326 154.2256 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
   (global_label "LSM2_INT" (shape input) (at 234.95 39.37 0) (fields_autoplaced)
@@ -1701,13 +1684,6 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid ad240702-86cc-4ef8-958e-e036eebcff63)
     (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 92.7159 74.8506 0)
-      (effects (font (size 1.27 1.27)) (justify right) hide)
-    )
-  )
-  (global_label "IO44" (shape input) (at 127 156.845 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid b1eeecaf-3351-47fe-9d25-bf3f2c8cebd8)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 120.2326 156.7656 0)
       (effects (font (size 1.27 1.27)) (justify right) hide)
     )
   )
@@ -3820,10 +3796,10 @@
       (reference "C28") (unit 1) (value "56pF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/1d256433-6de4-4c3c-8bf6-473c8fb18526"
-      (reference "C29") (unit 1) (value "TBD") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C29") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/cb8b5a4d-f53c-4fdd-bbba-ccb732fe5d61"
-      (reference "C30") (unit 1) (value "1nF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+      (reference "C30") (unit 1) (value "DNP") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/e96c3e2a-2126-4340-898b-967da0484374"
       (reference "C31") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0603_1608Metric")
@@ -3937,7 +3913,7 @@
       (reference "D1") (unit 1) (value "BLUE") (footprint "LED_SMD:LED_0603_1608Metric")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/ffd6a983-4822-4f37-978e-177b7febe08c"
-      (reference "D2") (unit 1) (value "TBD") (footprint "Diode_SMD:D_0402_1005Metric")
+      (reference "D2") (unit 1) (value "DNP") (footprint "Diode_SMD:D_0402_1005Metric")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/55b5f7c1-9e27-4de8-8da9-4ddd7c634c2f"
       (reference "D3") (unit 1) (value "D_Schottky") (footprint "Diode_SMD:D_SOD-123")
@@ -4015,7 +3991,7 @@
       (reference "IC1") (unit 1) (value "TPS62140RGTR") (footprint "KP-PTR_lib:QFN50P300X300X100-17N-D")
     )
     (path "/5f9da060-2eb0-4ae6-ad5b-b0da419a62a6/82aae44a-c9ee-4277-9258-adb407e6a613"
-      (reference "IC2") (unit 1) (value "E22-900M22S") (footprint "KP-PTR_lib:E22-900M22S")
+      (reference "IC2") (unit 1) (value "E22-400M22S") (footprint "KP-PTR_lib:E22-900M22S")
     )
     (path "/a069c936-1b73-4515-a7dd-c3cee8aa8158"
       (reference "J1") (unit 1) (value "ESP32_PROG_CON") (footprint "Connector_PinHeader_1.27mm:PinHeader_1x06_P1.27mm_Vertical")
@@ -4060,7 +4036,7 @@
       (reference "L2") (unit 1) (value "3.9nH") (footprint "Inductor_SMD:L_0402_1005Metric")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/4255a2b2-c667-497c-8694-71ada229b2f2"
-      (reference "L3") (unit 1) (value "10nH") (footprint "Inductor_SMD:L_0402_1005Metric")
+      (reference "L3") (unit 1) (value "DNP") (footprint "Inductor_SMD:L_0402_1005Metric")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/eafe2b3b-29a9-4552-bf6b-b6b9a49759ba"
       (reference "L4") (unit 1) (value "MWSA0402S-2R2MT") (footprint "KP-PTR_lib:INDPM4442X200N")
@@ -4177,13 +4153,13 @@
       (reference "R23") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/08102467-11bf-4118-8a9a-4b9393fed23f"
-      (reference "R24") (unit 1) (value "100R") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R24") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/1820113b-b3c5-414e-a854-423480a843b7"
       (reference "R25") (unit 1) (value "220") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/b1cb46aa-37b1-44bf-9609-48e120b6c51d"
-      (reference "R26") (unit 1) (value "10k") (footprint "Resistor_SMD:R_0402_1005Metric")
+      (reference "R26") (unit 1) (value "DNP") (footprint "Resistor_SMD:R_0402_1005Metric")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/02ab2548-d360-4d53-ba49-ccf0853e38ce"
       (reference "R28") (unit 1) (value "22k") (footprint "Resistor_SMD:R_0402_1005Metric")
@@ -4363,13 +4339,13 @@
       (reference "U6") (unit 1) (value "L76-L") (footprint "KP-PTR_lib:XCVR_L76-L")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/8e687858-1f88-4aa6-9fdc-2f0ed3726595"
-      (reference "U7") (unit 1) (value "NJG1156PCD") (footprint "KP-PTR_lib:SON50P260X260X55-11N")
+      (reference "U7") (unit 1) (value "DNP") (footprint "KP-PTR_lib:SON50P260X260X55-11N")
     )
     (path "/1d5e7912-4d51-4a4c-b45e-2695b4191d61/2f079120-278f-4a48-8d65-52cce2941b14"
       (reference "U8") (unit 1) (value "MMC5983MA") (footprint "KP-PTR_lib:MMC5983MA")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/526d0603-75ac-4309-8a51-6c753b790387"
-      (reference "U9") (unit 1) (value "LDFM33PVR") (footprint "KP-PTR_lib:LDFM33PVR")
+      (reference "U9") (unit 1) (value "DNP") (footprint "KP-PTR_lib:LDFM33PVR")
     )
     (path "/f38dad53-0af4-40f6-a173-e0e37aecb5da/814893a8-2bf5-4f5e-b499-9964c8084e05"
       (reference "U10") (unit 1) (value "AZ1117CH-5.0TRG1") (footprint "KP-PTR_lib:AZ1117CH-5.0TRG1")

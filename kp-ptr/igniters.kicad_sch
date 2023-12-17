@@ -6,8 +6,8 @@
 
   (title_block
     (title "KP-PTR")
-    (date "2022-11-18")
-    (rev "1")
+    (date "2023-12-10")
+    (rev "1.1")
     (company "Polskie Towarzystwo Rakietowe")
     (comment 1 "bartekM, FlyingBanana, Kretu, Red Labs, Stachu M, U.S. air force i inni")
   )
