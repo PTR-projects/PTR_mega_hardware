@@ -1605,12 +1605,13 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
+			(property "Description" "9 mm, 3.6 V, 87 dB, Surface Mount _SMT_, Magnetic Audio Transducer Buzzer"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left bottom)
 					(hide yes)
 				)
 			)
@@ -1625,16 +1626,6 @@
 				)
 			)
 			(property "AVAILABILITY" "Unavailable"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left bottom)
-					(hide yes)
-				)
-			)
-			(property "DESCRIPTION" "9 mm, 3.6 V, 87 dB, Surface Mount _SMT_, Magnetic Audio Transducer Buzzer"
 				(at 0 0 0)
 				(effects
 					(font
