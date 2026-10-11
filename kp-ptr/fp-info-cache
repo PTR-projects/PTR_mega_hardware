@@ -1,4 +1,8 @@
+<<<<<<< Updated upstream
 19900666984146737
+=======
+25876541188948652
+>>>>>>> Stashed changes
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52107,6 +52111,146 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+Graphics
+BalticSpaceFull
+
+
+0
+0
+0
+Graphics
+BalticSpaceLogo6mm
+
+
+0
+0
+0
+Graphics
+BalticSpaceLogo10mm
+
+
+0
+0
+0
+Graphics
+BalticSpaceLogo12mm
+
+
+0
+0
+0
+Graphics
+KestrelLogo
+
+
+0
+0
+0
+Graphics
+PLD-Decal
+
+
+0
+0
+0
+Graphics
+PLD-Logo
+
+
+0
+0
+0
+Graphics
+PhoenixGSElogo10mm
+
+
+0
+0
+0
+Graphics
+PhoenixGSElogo25mm
+
+
+0
+0
+0
+Graphics
+PhoenixGSElogoFull
+
+
+0
+0
+0
+Graphics
+Quail-Decal
+
+
+0
+0
+0
+Graphics
+Quail-Graphics
+
+
+0
+0
+0
+Graphics
+Quail-Logo
+
+
+0
+0
+0
+Graphics
+Red Labs 6.5mm x 6.5mm Logo
+
+
+0
+0
+0
+Graphics
+Red Labs 7mm x 7mm Logo
+
+
+0
+0
+0
+Graphics
+Red Labs 12mm x 12mm Logo
+
+
+0
+0
+0
+Graphics
+Red Labs PAD
+
+
+0
+3
+1
+Graphics
+TVC-Logo
+
+
+0
+0
+0
+Graphics
+TVC-Logo2
+
+
+0
+0
+0
+Graphics
+TVC-Logo3
+
+
+0
+0
+0
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -77902,6 +78046,2109 @@ rotary encoder
 0
 5
 4
+<<<<<<< Updated upstream
+=======
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEC09-2xxxF-Nxxxx
+Bourns rotary encoder, PEC09, without switch, horizontal shaft, https://www.bourns.com/products/encoders/contacting-encoders/product/PEC09
+rotary encoder
+0
+3
+3
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEC09-2xxxF-Sxxxx
+Bourns rotary encoder, PEC09, with switch, horizontal shaft, https://www.bourns.com/products/encoders/contacting-encoders/product/PEC09
+rotary encoder
+0
+5
+5
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEC12R-2x17F-Nxxxx
+Bourns rotary encoder, PEC12R, without switch, horizontal shaft, 17mm shaft length, https://www.bourns.com/docs/product-datasheets/pec12r.pdf
+rotary encoder
+0
+5
+4
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEC12R-2x17F-Sxxxx
+Bourns rotary encoder, PEC12R, with switch, horizontal shaft, 17mm shaft length, https://www.bourns.com/docs/product-datasheets/pec12r.pdf
+rotary encoder
+0
+7
+6
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEL12D-2x16F-Sxxxx
+Rotary encoder with switch and illuminated 4mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch horizontal
+0
+9
+8
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEL12D-2x18F-Sxxxx
+Rotary encoder with switch and illuminated 6mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch horizontal
+0
+9
+8
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEL12D-2x21F-Sxxxx
+Rotary encoder with switch and illuminated 8mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch horizontal
+0
+9
+8
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEL12D-2x25S-Sxxxx
+Rotary encoder with switch and illuminated shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch horizontal
+0
+9
+8
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEL12D-2x26F-Sxxxx
+Rotary encoder with switch and illuminated 13mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch horizontal
+0
+9
+8
+Rotary_Encoder
+RotaryEncoder_Bourns_Horizontal_PEL12D-2x31F-Sxxxx
+Rotary encoder with switch and illuminated 18mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch horizontal
+0
+9
+8
+Rotary_Encoder
+RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Nxxxx
+Bourns rotary encoder, PEC12R, without switch, with bushing, vertical shaft, 17.5mm shaft, https://www.bourns.com/docs/product-datasheets/pec12r.pdf
+rotary encoder
+0
+5
+4
+Rotary_Encoder
+RotaryEncoder_Bourns_Vertical_PEC12R-3x17F-Sxxxx
+Bourns rotary encoder, PEC12R, with switch, with bushing, vertical shaft, 17.5mm shaft, https://www.bourns.com/docs/product-datasheets/pec12r.pdf
+rotary encoder
+0
+7
+6
+Rotary_Encoder
+RotaryEncoder_Bourns_Vertical_PEL12D-4x25S-Sxxxx
+Rotary encoder with switch and illuminated 13mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch vertical
+0
+9
+8
+Rotary_Encoder
+RotaryEncoder_Bourns_Vertical_PEL12D-4xxxF-Sxxxx
+Rotary encoder with switch and illuminated 4,6,8,13,18mm shaft, dual-led, https://www.bourns.com/docs/product-datasheets/PEL12D.pdf
+rotary encoder illuminated switch vertical
+0
+9
+8
+SamacSys_Parts
+60312862112552
+
+
+0
+6
+2
+SamacSys_Parts
+2-5530843-7-Daughter-Board
+
+
+0
+37
+18
+SamacSys_Parts
+74AVC4T774GUX
+74AVC4T774GUX
+Integrated Circuit
+0
+16
+16
+SamacSys_Parts
+74AVC9112GTX
+SOT833-1
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+74LVCH8T245BQQ10J
+74LVCH8T245BQ-Q10J-2
+Integrated Circuit
+0
+25
+25
+SamacSys_Parts
+878-20-004-10-011000
+
+
+0
+4
+4
+SamacSys_Parts
+0968-0-15-20-76-14-11-0
+
+
+0
+2
+1
+SamacSys_Parts
+1503-19
+1503-19
+Connector
+0
+7
+7
+SamacSys_Parts
+1801WSMD10K
+1801WSMD-10K-2
+Variable Resistor
+0
+3
+3
+SamacSys_Parts
+3296W1503LF
+3296W-1
+Variable Resistor
+0
+3
+3
+SamacSys_Parts
+0154001DR
+SMD-NANO2
+Fuse
+0
+2
+2
+SamacSys_Parts
+501568-0607
+501568-0607
+Connector
+0
+8
+8
+SamacSys_Parts
+504050-0791
+504050-0791
+Connector
+0
+9
+9
+SamacSys_Parts
+15462152
+1546215-2-4
+Connector
+0
+2
+2
+SamacSys_Parts
+15462154
+1546215-4-2
+Connector
+0
+4
+4
+SamacSys_Parts
+15916082
+15-91-6082-2
+Connector
+0
+8
+8
+SamacSys_Parts
+20715561
+2071556-1-2
+Relay or Contactor
+0
+4
+4
+SamacSys_Parts
+74651174R
+74651174R-2
+Connector
+0
+4
+4
+SamacSys_Parts
+255308437
+2-5530843-7-2
+Connector
+0
+36
+36
+SamacSys_Parts
+323639620
+3-2363962-0
+Connector
+0
+34
+34
+SamacSys_Parts
+5015680707
+501568-0707-2
+Connector
+0
+9
+9
+SamacSys_Parts
+5019530405
+501953-0405-1
+Connector
+0
+6
+5
+SamacSys_Parts
+5037630291
+503763-0291
+Connector
+0
+4
+4
+SamacSys_Parts
+5037630591
+503763-0591-2
+Connector
+0
+7
+7
+SamacSys_Parts
+5037630691
+503763-0691-1
+Connector
+0
+8
+8
+SamacSys_Parts
+5040500291
+504050-0291-1
+Connector
+0
+4
+4
+SamacSys_Parts
+5040500491
+504050-0491-1
+Connector
+0
+6
+6
+SamacSys_Parts
+5040500691
+504050-0691-2
+Connector
+0
+8
+8
+SamacSys_Parts
+5040500791
+504050-0791-1
+Connector
+0
+9
+9
+SamacSys_Parts
+5055670271
+505567-0271
+Connector
+0
+4
+4
+SamacSys_Parts
+5055670471
+505567-0471
+Connector
+0
+6
+6
+SamacSys_Parts
+5055670571
+505567-0571
+Connector
+0
+7
+7
+SamacSys_Parts
+5055670881
+505567-0881-2
+Connector
+0
+10
+10
+SamacSys_Parts
+5055680871
+505568-0871
+Connector
+0
+10
+10
+SamacSys_Parts
+5055750671
+505575-0671
+Connector
+0
+8
+8
+SamacSys_Parts
+5055780471
+5055780471-1
+Connector
+0
+6
+6
+SamacSys_Parts
+5055780671
+505578-0671-1
+Connector
+0
+8
+8
+SamacSys_Parts
+61030821821
+61030821821-2
+Connector
+0
+8
+8
+SamacSys_Parts
+9774005243R
+9774005243R-2
+Connector
+0
+1
+1
+SamacSys_Parts
+74980111211
+<B>WE-RJ45 LAN Transformer<BR></B>10/100 Base-T
+
+0
+14
+14
+SamacSys_Parts
+2023960707
+202396-0707-1
+Connector
+0
+9
+9
+SamacSys_Parts
+2035560707
+203556-0707-2
+Connector
+0
+9
+9
+SamacSys_Parts
+2035570707
+203557-0707-3
+Connector
+0
+9
+9
+SamacSys_Parts
+2035620405
+203562-0405-3
+Connector
+0
+6
+6
+SamacSys_Parts
+2059570871
+205957-0871-3
+Connector
+0
+10
+10
+SamacSys_Parts
+2068321001
+206832-1001-2
+Connector
+0
+10
+10
+SamacSys_Parts
+ABM3
+ABM3
+Crystal or Oscillator
+0
+2
+2
+SamacSys_Parts
+ACSC0441SEKWAF01
+ACSC04-41SEKWA-F01
+Display
+0
+10
+10
+SamacSys_Parts
+ADJH21112
+ADJH21112-1
+Relay or Contactor
+0
+4
+4
+SamacSys_Parts
+AMASS_XT90PW-F
+
+
+0
+4
+3
+SamacSys_Parts
+AMASS_XT90PW-M
+
+
+0
+4
+3
+SamacSys_Parts
+AMPHENOL_RJLSE4238101
+
+
+0
+10
+9
+SamacSys_Parts
+ANTC3216X140N
+ACMA31
+Inductor
+0
+2
+2
+SamacSys_Parts
+AWG-13-Pad
+
+
+0
+1
+1
+SamacSys_Parts
+BGA8C40P2X4_86X176X50
+YBG0008_2023
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+BGA9C50P3X3_158X162X62
+YZF0009=
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+BGA10C40P3X4_137X201X68
+Flip Chip CSP 1.4 x 2.04 mm package
+Integrated Circuit
+0
+10
+10
+SamacSys_Parts
+BLF03RD102GZED
+BLF03RD102GZED-5
+Ferrite Bead
+0
+2
+2
+SamacSys_Parts
+BLM18SP221SN1B
+BLM18_3 L=1.6 W=0.8 T=0.8
+Ferrite Bead
+0
+2
+2
+SamacSys_Parts
+BMI088
+
+
+0
+16
+16
+SamacSys_Parts
+BMP390
+BMP390
+Integrated Circuit
+0
+10
+10
+SamacSys_Parts
+BSZ180P03NS3EGATMA1
+Infineon PG-TSDSON-8
+MOSFET (N-Channel)
+0
+9
+3
+SamacSys_Parts
+BWVS005050404R7M00
+5mmX5mmX4mm
+Inductor
+0
+2
+2
+SamacSys_Parts
+C1210
+C1210
+Capacitor
+0
+2
+2
+SamacSys_Parts
+CAPAE1000X1050N
+AEA1010221M035R
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+CAPAE1300X1400N
+1213
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+CAPPC6465X560N
+597D Case Code H
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+CAPPM7343X310N
+7343
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+CAPPM7343X430N
+Case E
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+CAPPRD350W65D850H2200
+HS0820-3R8256-R
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+CC-14-1
+CC-14-1
+Integrated Circuit
+0
+14
+14
+SamacSys_Parts
+CDBQR70HF
+0402/SOD-923F
+Schottky Diode
+0
+2
+2
+SamacSys_Parts
+CDBU0240
+CDBU0240-2
+Schottky Diode
+0
+2
+2
+SamacSys_Parts
+CDDFN100506N
+DFN-10
+Diode
+0
+11
+11
+SamacSys_Parts
+CON-SMA-EDGE-S
+
+
+0
+5
+2
+SamacSys_Parts
+CONN_SM04B-PASS-_JST
+
+SM04B-PASS-TBT 
+0
+6
+6
+SamacSys_Parts
+CON_5019400407
+
+5019400407 
+0
+6
+5
+SamacSys_Parts
+CON_5055670481
+
+5055670481 
+0
+6
+5
+SamacSys_Parts
+CUHS20S40H3F
+CUHS20S40,H3F-2
+Schottky Diode
+0
+2
+2
+SamacSys_Parts
+D2PAK-STB35NF10T4
+D2PAK-STB35NF10T4
+Integrated Circuit
+0
+3
+3
+SamacSys_Parts
+DIOM5127X229N
+SMA (DO-214AC)
+Schottky Diode
+0
+2
+2
+SamacSys_Parts
+DIONM5336X250N
+SMB
+TVS Diode (Uni-directional)
+0
+2
+2
+SamacSys_Parts
+DMP1022UFDEQ7
+U-DFN2020-6 (Type E)
+MOSFET (P-Channel)
+0
+8
+3
+SamacSys_Parts
+DMT6015LPS13
+POWERDI® 5060-8 
+MOSFET (N-Channel)
+0
+15
+3
+SamacSys_Parts
+DMTH8008LFGQ7
+PowerDI3333-8_24
+MOSFET (N-Channel)
+0
+9
+9
+SamacSys_Parts
+DP83825IRMQR
+DP83825IRMQR-5
+Integrated Circuit
+0
+25
+25
+SamacSys_Parts
+DPY_R-PX1SON-N2_
+DPY (R-PX1SON-N2)
+TVS Diode (Bi-directional)
+0
+2
+2
+SamacSys_Parts
+DSC1001CL50400000
+DSC1001CL5-040.0000-4
+Crystal or Oscillator
+0
+4
+4
+SamacSys_Parts
+DSC1001_3_4
+
+
+0
+4
+4
+SamacSys_Parts
+DSC1101DM20160000T
+DSC1101DM2-016.0000T-1
+Crystal or Oscillator
+0
+6
+6
+SamacSys_Parts
+Diodes_PowerDI3333-8
+Diodes Incorporated PowerDI3333-8, Plastic Dual Flat No Lead Package, 3.3x3.3x0.8mm Body, https://www.diodes.com/assets/Package-Files/PowerDI3333-8.pdf
+PowerDI 0.65
+0
+13
+3
+SamacSys_Parts
+EEEHP1H4R7P
+D8
+Capacitor Polarised
+0
+2
+2
+SamacSys_Parts
+EEHZA1J100V
+Hybrid_D_VP
+Capacitor Polarised
+0
+6
+2
+SamacSys_Parts
+ERA6AEB1020V
+ERA6A
+Resistor
+0
+2
+2
+SamacSys_Parts
+ESDA25P351U1M
+1610_2023
+TVS Diode (Uni-directional)
+0
+2
+2
+SamacSys_Parts
+EuroCard Hole
+
+
+0
+0
+0
+SamacSys_Parts
+FDBL86366F085
+H−PSOF8L 11.68x9.80x2.30,1.20P CASE 100CU ISSUE F
+MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
+FDMC86139P
+WDFN8 3.3x3.3, 0.65P CASE 511DH ISSUE O
+MOSFET (N-Channel)
+0
+9
+9
+SamacSys_Parts
+FIL_NFM15CC222D1C3D
+
+
+0
+4
+3
+SamacSys_Parts
+G125-FV10605F3P
+G125-FV10605F3P
+Connector
+0
+6
+6
+SamacSys_Parts
+G125-MH10605L1P
+G125-MH10605L1P
+Connector
+0
+6
+6
+SamacSys_Parts
+G125-MH11005M4P_1
+G125-MH11005M4P_1
+Connector
+0
+10
+10
+SamacSys_Parts
+G125-MS11005M2P
+G125-MS11005M2P
+Connector
+0
+10
+10
+SamacSys_Parts
+G125-MV11005M1P
+G125-MV11005M1P
+Connector
+0
+10
+10
+SamacSys_Parts
+G125-MV11005M2P
+G125-MV11005M2P
+Connector
+0
+10
+10
+SamacSys_Parts
+G125-MV11205M1P
+G125-MV11205M1P
+Connector
+0
+12
+12
+SamacSys_Parts
+GSB19111KEU
+GSB19111KEU-1
+Connector
+0
+8
+5
+SamacSys_Parts
+HARWIN_G125-MH10605L1P
+
+
+0
+6
+6
+SamacSys_Parts
+HARWIN_G125-MV20605L2P
+
+
+0
+6
+6
+SamacSys_Parts
+INDPM3030X150N
+LQH3NPH560MMEL
+Inductor
+0
+2
+2
+SamacSys_Parts
+INDPM4242X200N
+PA4332.103NLT
+Inductor
+0
+2
+2
+SamacSys_Parts
+INDPM6360X480N
+MDH6045C
+Inductor
+0
+2
+2
+SamacSys_Parts
+INDPM110100X540N
+SRP1050WA-100M
+Inductor
+0
+2
+2
+SamacSys_Parts
+INDPM173169X700N
+101 1510
+Inductor
+0
+2
+2
+SamacSys_Parts
+ISC010N06NM5ATMA1
+PG-TSON-8-3_2023
+MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
+KDZVTR10B
+KDZVTR10B-1
+Zener Diode
+0
+2
+2
+SamacSys_Parts
+KDZVTR33B
+SOD-123FL_1
+Zener Diode
+0
+2
+2
+SamacSys_Parts
+L77SDE09SA4CH4F
+L77SDE09SA4CH4F
+Connector
+0
+11
+11
+SamacSys_Parts
+LD59150PUR
+LD59150PUR
+Integrated Circuit
+0
+15
+11
+SamacSys_Parts
+LEDC1006X25N
+1006 (0402)
+LED
+0
+2
+2
+SamacSys_Parts
+LM73100RPWR
+LM73100RPWR-2
+Integrated Circuit
+0
+14
+10
+SamacSys_Parts
+LMR604XX-Q1
+
+
+0
+1
+1
+SamacSys_Parts
+LMR43620MC5RPERQ1
+RPE0009A_2022
+Integrated Circuit
+0
+13
+9
+SamacSys_Parts
+LMR66430R5RXBR
+RXB0014A
+Integrated Circuit
+0
+19
+15
+SamacSys_Parts
+LQH66SN100M03L
+2525 (6363) T=4.7±0.3mm
+Inductor
+0
+2
+2
+SamacSys_Parts
+LSM6DS3USTR
+LGA-14(2.5x3x0.86)
+Integrated Circuit
+0
+14
+14
+SamacSys_Parts
+LT3073AVPBF
+LQFN Package 22-Lead (3mm x 4mm x 0.95mm)
+Integrated Circuit
+0
+24
+24
+SamacSys_Parts
+M80-5T104YYMC
+M80-5T104YYMC
+Connector
+0
+4
+4
+SamacSys_Parts
+M80-51004YY
+M80-51004YY
+Connector
+0
+4
+4
+SamacSys_Parts
+M300MV10345M1
+M300-MV10345M1-1
+Connector
+0
+3
+3
+SamacSys_Parts
+MS5607-02BA03
+MS5607-02BA03
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+MS561101BA03-50
+MS561101BA03-50
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+NE555DR
+D (R-PDSO-G8)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+NFM15PC105R0G3D
+L=1.0mm W=0.5mm T=0.3mm
+Capacitor
+0
+4
+4
+SamacSys_Parts
+NFZ15SG152SN10B
+BLM15 L=1.0 W=0.5 T=0.5
+Ferrite Bead
+0
+2
+2
+SamacSys_Parts
+NFZ32BW111HN10L
+NFZ32_1 L=3.2 W=2.5 T=1.55
+Filter
+0
+2
+2
+SamacSys_Parts
+NTBLS1D1N08H
+H−PSOF8L 11.68x9.80_2022
+MOSFET (N-Channel)
+0
+12
+12
+SamacSys_Parts
+NTMFS5C460NLT1G
+DFN5 5x6, 1.27P (SO−8FL) CASE 488AA ISSUE N
+MOSFET (N-Channel)
+0
+9
+9
+SamacSys_Parts
+NVBLS1D1N08H
+H−PSOF8L 11.68x9.80 CASE 100CU ISSUE C
+MOSFET (N-Channel)
+0
+12
+12
+SamacSys_Parts
+NVMFS6H864NT1G
+NVMFS6H864NT1G-2
+MOSFET (N-Channel)
+0
+7
+7
+SamacSys_Parts
+P701010045R
+P70-1010045R-1
+Connector
+0
+1
+1
+SamacSys_Parts
+P702300045R
+P70-2300045R-1
+Connector
+0
+1
+1
+SamacSys_Parts
+P705100045
+P70-5100045-1
+Connector
+0
+1
+1
+SamacSys_Parts
+P707000045
+P70-7000045-2
+Connector
+0
+1
+1
+SamacSys_Parts
+PG-TDSON-8-34
+PG-TDSON-8-34
+MOSFET (N-Channel)
+0
+10
+10
+SamacSys_Parts
+PK_R-PSSO-F3_
+PK (R-PSSO-F3)
+Integrated Circuit
+0
+4
+4
+SamacSys_Parts
+PMEG045V100EPDAZ
+PMEG045V100EPDAZ-1
+Diode
+0
+3
+2
+SamacSys_Parts
+PMEG4010EXEX
+PMEG4010EXEX
+Schottky Diode
+0
+3
+2
+SamacSys_Parts
+PMH550UNEH
+PMH550UNEH-3
+MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
+PMPB48EP115
+PMPB48EP,115-1
+MOSFET (P-Channel)
+0
+8
+3
+SamacSys_Parts
+PMX300UNEZ
+PMX300UNEZ-2
+MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
+PR2612VS9001AE
+PR26-12V-S-900-1A-E-2
+Relay or Contactor
+0
+4
+4
+SamacSys_Parts
+PTS526SK15SMTR2LFS
+PTS526 SK15 SMTR2 LFS-1
+Switch
+0
+4
+4
+SamacSys_Parts
+PTV56BM384A
+PTV5.6B-M3/84A-2
+Zener Diode
+0
+2
+2
+SamacSys_Parts
+PowerPAK_SO-8S_BWL
+
+
+0
+9
+3
+SamacSys_Parts
+QFN50P300X300X100-17N-D
+QFN-16 (3mmx3mm)_2024
+Integrated Circuit
+0
+17
+17
+SamacSys_Parts
+QFN50P400X400X80-25N-D
+RTW (S-PWQFN-N24)_1
+Integrated Circuit
+0
+25
+25
+SamacSys_Parts
+QFN50P400X400X100-25N-D
+QFN24-1
+Integrated Circuit
+0
+25
+25
+SamacSys_Parts
+QFN50P500X500X60-33N-D
+STM32G0B1KBU6
+Integrated Circuit
+0
+33
+33
+SamacSys_Parts
+QFN50P500X500X90-33N
+VQFN-32-1
+Integrated Circuit
+0
+33
+33
+SamacSys_Parts
+QFN50P600X600X80-41N-D
+RTA (S-PQFP-N40)_1
+Integrated Circuit
+0
+41
+41
+SamacSys_Parts
+QFN50P600X600X100-37N-D
+36-PIN SQFN
+Integrated Circuit
+0
+37
+37
+SamacSys_Parts
+QFN50P700X700X60-49N-D
+UFQFPN -48 PIN
+Integrated Circuit
+0
+49
+49
+SamacSys_Parts
+QFN50P900X900X80-65N-D
+AD7779ACPZ
+Integrated Circuit
+0
+65
+65
+SamacSys_Parts
+QFN_2016_4pins
+QFN_2016_4pins
+Crystal or Oscillator
+0
+4
+4
+SamacSys_Parts
+QFP50P700X700X120-32N
+PBS (S-PQFP-G32)
+Integrated Circuit
+0
+32
+32
+SamacSys_Parts
+QFP50P900X900X160-48N
+LQFP 48 7x7x1.4  mm
+Integrated Circuit
+0
+48
+48
+SamacSys_Parts
+RAK0009A-MFG
+
+LMR604303SRAKRQ1 
+0
+9
+9
+SamacSys_Parts
+RBE01VYM6AFHTR
+RBE01VYM6AFHTR-4
+Schottky Diode
+0
+2
+2
+SamacSys_Parts
+RCLAMP2451ZATFT
+RCLAMP2451ZATFT-1
+TVS Diode (Bi-directional)
+0
+2
+2
+SamacSys_Parts
+RD3024
+
+
+0
+4
+4
+SamacSys_Parts
+REF7025QFKHT
+REF7025QFKHT-3
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+REF7050QFKHT
+REF7050QFKHT-4
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+RPW0010A-MFG
+
+TPS259470ARPWR 
+0
+10
+10
+SamacSys_Parts
+Rpi_Cam_HQ_Flex
+
+
+0
+15
+15
+SamacSys_Parts
+Rpi_HQ_Flex
+
+
+0
+15
+15
+SamacSys_Parts
+S62F
+
+
+0
+29
+29
+SamacSys_Parts
+SAMTEC_IPBS-102-02-XX-S
+
+
+0
+2
+2
+SamacSys_Parts
+SAMTEC_MMCXV-J-P-HF-ST-TH1
+
+
+0
+5
+2
+SamacSys_Parts
+SAMTEC_MMCXV-P-P-HF-ST-TH1
+
+
+0
+5
+2
+SamacSys_Parts
+SAMTEC_TFM-105-02-L-DH
+
+
+0
+14
+14
+SamacSys_Parts
+SCH16TK0110
+SCH16T-K01-10-2
+Integrated Circuit
+0
+24
+24
+SamacSys_Parts
+SDM02U30LP37B
+SDM02U30LP3-7B-4
+Schottky Diode
+0
+2
+2
+SamacSys_Parts
+SG210STF160000ML5
+SG-210STF 16.0000ML5-2
+Crystal or Oscillator
+0
+4
+4
+SamacSys_Parts
+SI5419DUT1GE3
+PowerPAK® ChipFET
+MOSFET (P-Channel)
+0
+10
+3
+SamacSys_Parts
+SI7141DPT1GE3
+PowerPAK® SO-8 Single_1
+MOSFET (N-Channel)
+0
+11
+11
+SamacSys_Parts
+SI7904BDNT1GE3
+PowerPAK®  1212-8,  (Single / Dual)
+MOSFET (N-Channel)
+0
+16
+16
+SamacSys_Parts
+SJ335044A
+SJ3-35044A-1
+Connector
+0
+5
+5
+SamacSys_Parts
+SJ335083BTR
+SJ3-35083B-TR-1
+Connector
+0
+4
+4
+SamacSys_Parts
+SLW-1277545-2A-RA-S-D
+
+
+0
+6
+5
+SamacSys_Parts
+SLW126894AND
+SLW-12689-4A-N-D-4
+Switch
+0
+5
+5
+SamacSys_Parts
+SLW12775452ARASD
+SLW-1277545-2A-RA-S-D-2
+Switch
+0
+6
+6
+SamacSys_Parts
+SM04B-PASS-_JST
+
+SM04B-PASS-TBT 
+0
+6
+5
+SamacSys_Parts
+SM43P01EL
+SM43P01EL-1
+Transformer
+0
+24
+24
+SamacSys_Parts
+SN74HCS595BQBR
+SN74HCS595BQBR-3
+Integrated Circuit
+0
+17
+17
+SamacSys_Parts
+SN74LXC2T45QDTTRQ1
+SN74LXC2T45QDTTRQ1-3
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOD2513X120N
+SOD323
+Schottky Diode
+0
+2
+2
+SamacSys_Parts
+SOD2713X115N
+SOD-323
+Zener Diode
+0
+2
+2
+SamacSys_Parts
+SOD3716X135N
+SOD-123 CASE 425-04 ISSUE G
+Zener Diode
+0
+2
+2
+SamacSys_Parts
+SODFL1608X70N
+SOD−523__
+Schottky Diode
+0
+2
+2
+SamacSys_Parts
+SODFL3518X115N
+SOD-123F
+Diode
+0
+2
+2
+SamacSys_Parts
+SODFL5226X100N
+SlimSMA (DO-221AC)
+Diode
+0
+2
+2
+SamacSys_Parts
+SOIC127P600X170-9N
+TPS54540BQDDARQ1-1
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SOIC127P600X175-8N
+8S1, 8-lead (150 mil Narrow Body)
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOIC127P600X175-14N
+74ABT74D
+Integrated Circuit
+0
+14
+14
+SamacSys_Parts
+SOIC127P1030X355-20N
+DFM0020A
+Integrated Circuit
+0
+20
+20
+SamacSys_Parts
+SOIC127P1150X355-6N
+DWY0006A
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
+SON50P120X160X60-6N-D
+UTQFN-6 (1.2mmx1.6mm)_2021
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
+SON50P200X200X60-9N-D
+CP-8-10 [LFCSP]
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SON50P200X200X80-9N
+DSG
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SON50P300X200X60-9N
+USON 2x3x0.6-mm
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SON50P300X200X60-9N-D
+8MA3
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SON50P300X300X80-9N-D
+8-Lead LFCSP_WD (CP-8-21)
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SON50P300X300X80-11N
+T1033+1C
+Integrated Circuit
+0
+11
+11
+SamacSys_Parts
+SON50P300X400X80-15N-D
+14-Lead, 4 mm × 3 mm, Plastic DFN (05-08-1708)-
+Integrated Circuit
+0
+15
+15
+SamacSys_Parts
+SON65P200X200X60-7N-D
+6-Lead Lead Frame Chip Scale Package [LFCSP] 2.00 mm × 2.00 mm Body and 0.55 mm Package Height (CP-6-3)_
+Integrated Circuit
+0
+7
+7
+SamacSys_Parts
+SON65P200X200X80-7N
+DRV (S-PWSON-N6)
+Integrated Circuit
+0
+7
+7
+SamacSys_Parts
+SON65P201X201X63-7N
+U-DFN2020-6
+Integrated Circuit
+0
+7
+7
+SamacSys_Parts
+SON65P300X300X100-9N-D
+DRB0008J
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SON80P400X400X50-9N
+XSON-8
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SON95P300X300X80-7N
+tdfn-6
+Integrated Circuit
+0
+7
+7
+SamacSys_Parts
+SON95P300X300X80-7N-D
+DRS (S-PWSON-N6)
+Integrated Circuit
+0
+7
+7
+SamacSys_Parts
+SON127P600X500X80-9N-D
+8-Pad WSON 6x5-mm (Package Code ZP)
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SON127P800X600X80-9N-D
+10.2 8-Pad WSON 8x6-mm (Package Code ZE).
+Integrated Circuit
+0
+9
+9
+SamacSys_Parts
+SOP50P490X110-10N
+10 µSOP
+Integrated Circuit
+0
+10
+10
+SamacSys_Parts
+SOP65P400X110-8N
+SOT505-2
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOP65P640X110-17N
+FE Package 16-Lead Plastic TSSOP (4.4mm) (Reference LTC DWG # 05-08-1663 Rev K) Exposed Pad Variatio
+Integrated Circuit
+0
+17
+17
+SamacSys_Parts
+SOP65P640X120-20N
+TSSOP - 1.2 mm max height-
+Integrated Circuit
+0
+20
+20
+SamacSys_Parts
+SOP65P640X120-24N
+AD7175-2BRUZ
+Integrated Circuit
+0
+24
+24
+SamacSys_Parts
+SOP65P780X213-24N
+24L SSOP
+Integrated Circuit
+0
+24
+24
+SamacSys_Parts
+SOT-89-5-1
+SOT-89-5-1
+Integrated Circuit
+0
+7
+7
+SamacSys_Parts
+SOT50P160X90-3N
+-sot523
+MOSFET (N-Channel)
+0
+3
+3
+SamacSys_Parts
+SOT65P210X110-3N
+ESDA25W
+Diode
+0
+3
+3
+SamacSys_Parts
+SOT65P210X110-5N
+SN74LVC1G07MDCKREP-1
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOT65P210X110-6N
+DCK (R-PDSO-G6)
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
+SOT65P212X110-5N
+SOT353-1
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOT65P280X110-8N
+DDF0008A_2024
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SOT65P280X145-8N
+CAT5171TBI-00GT3
+Variable Resistor
+0
+8
+8
+SamacSys_Parts
+SOT95P230X110-3N
+SOT 23 (TO-236AB)
+Transistor BJT NPN
+0
+3
+3
+SamacSys_Parts
+SOT95P237X112-3N
+DBZ0003A HEIGHT_1.12
+Integrated Circuit
+0
+3
+3
+SamacSys_Parts
+SOT95P275X110-5N
+SOT753
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOT95P275X110-6N
+SOT 457
+Diode
+0
+6
+6
+SamacSys_Parts
+SOT95P280X145-5N
+TLV74333PDBVR
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOT95P280X145-6N
+SOT-23 - 1.45 mm max height
+Integrated Circuit
+0
+6
+6
+SamacSys_Parts
+SOT95P282X130-5N
+SOT-23-5
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOT96P237X111-3N
+SOT-23 (TO-236) CASE 318-08
+Transistor
+0
+3
+3
+SamacSys_Parts
+SOT230P700X175-4N
+SOT−223 (TO−261) CASE 318E−04 ISSUE R
+Integrated Circuit
+0
+4
+4
+SamacSys_Parts
+SOTFL50P160X60-5N
+DRL (R-PDS0-N5)
+Integrated Circuit
+0
+5
+5
+SamacSys_Parts
+SOTFL50P160X60-8N
+DRL0008A
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+SQA410EJT1_GE3
+SQA410EJ-T1_GE3-2
+MOSFET (N-Channel)
+0
+8
+8
+SamacSys_Parts
+SQJ211ELPT1_GE3
+PowerPAK® SO-8L Single_2021
+MOSFET (P-Channel)
+0
+8
+3
+SamacSys_Parts
+SRN3010BTA100M
+SRN3010BTA-100M
+Inductor
+0
+2
+2
+SamacSys_Parts
+SRN3015BTA100M
+SRN3015BTA-100M
+Inductor
+0
+2
+2
+SamacSys_Parts
+SRR6603332ML
+SRR6603-332ML-2
+Inductor
+0
+2
+2
+SamacSys_Parts
+ScrewCon4PIN-SMD
+
+
+0
+4
+4
+SamacSys_Parts
+T9GS5L1412
+T9GS5L14-12-4
+Relay or Contactor
+0
+5
+5
+SamacSys_Parts
+T93XB502KT20
+9.70mm x 5.00mm x 9.8mm_2024
+Variable Resistor
+0
+3
+3
+SamacSys_Parts
+TC33X2503E
+TC33X-2_1
+Variable Resistor
+0
+3
+3
+SamacSys_Parts
+TCAN4551RGYRQ1
+RGY0020C_2020
+Integrated Circuit
+0
+27
+27
+SamacSys_Parts
+TL3305AF160QG
+TL3305AF160QG
+Switch
+0
+4
+4
+SamacSys_Parts
+TLVM13610RDFR
+RDF0022A
+Integrated Circuit
+0
+30
+18
+SamacSys_Parts
+TO-277A_SMPC_
+TO-277A (SMPC)
+Schottky Diode
+0
+3
+3
+SamacSys_Parts
+TPD4E02B04QDQARQ1
+TPD4E02B04QDQARQ1-1
+Integrated Circuit
+0
+10
+10
+SamacSys_Parts
+TPS2121RUXR
+TPS2121RUXR-3
+Integrated Circuit
+0
+12
+12
+SamacSys_Parts
+TPS62918QRPYRQ1
+RPY0014A
+Integrated Circuit
+0
+20
+14
+SamacSys_Parts
+TPS259830ONRGER
+TPS259830ONRGER-2
+Integrated Circuit
+0
+26
+26
+SamacSys_Parts
+TS78L05ACYRMG
+TS78L05ACY RMG-3
+Power Supply
+0
+4
+4
+SamacSys_Parts
+TXU0102QDTTRQ1
+DTT0008A
+Integrated Circuit
+0
+8
+8
+SamacSys_Parts
+TXU0304QWBQARQ1
+BQA0014B
+Integrated Circuit
+0
+15
+15
+SamacSys_Parts
+Texas_PHP0048C
+
+
+0
+88
+49
+SamacSys_Parts
+USB4730GFAKIT
+USB4730-GF-A-KIT-2
+Connector
+0
+16
+16
+SamacSys_Parts
+USB412003C
+USB4120-03-C
+Connector
+0
+20
+20
+SamacSys_Parts
+USB480003A
+USB4800-03-A-1
+Connector
+0
+16
+16
+SamacSys_Parts
+USB4500031A
+USB4500-03-1-A-1
+Connector
+0
+20
+17
+SamacSys_Parts
+Untitled
+
+
+0
+0
+0
+SamacSys_Parts
+V10PM15HM3H
+SMPC (TO-277A)_2024-2
+Schottky Diode
+0
+3
+3
+SamacSys_Parts
+VLS4012
+VLS4012
+Inductor
+0
+2
+2
+SamacSys_Parts
+VLS5045EX330M
+VLS5045
+Inductor
+0
+2
+2
+SamacSys_Parts
+XT30AWM
+XT30AW-M-3
+Connector
+0
+2
+2
+SamacSys_Parts
+XT30PWF
+XT30PW-F-2
+Connector
+0
+4
+4
+SamacSys_Parts
+XT30PWM
+XT30PW-M
+Connector
+0
+4
+3
+SamacSys_Parts
+XT30UPBF
+  XT30UPB-F-3
+Connector
+0
+2
+2
+SamacSys_Parts
+XT90PWF
+XT90PW-F-1
+Connector
+0
+4
+4
+SamacSys_Parts
+battery pad
+
+
+0
+2
+2
+Sensor
+ASAIR_AM2302_P2.54mm_Lead2.75mm_TabDown
+Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
+Temperature and humidity module DHT22 AM2302
+0
+4
+4
+Sensor
+ASAIR_AM2302_P2.54mm_Vertical
+Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/AM2302.pdf
+Temperature and humidity module DHT22 AM2302
+0
+4
+4
+>>>>>>> Stashed changes
 Sensor
 Aosong_DHT11_5.5x12.0_P2.54mm
 Temperature and humidity module, http://akizukidenshi.com/download/ds/aosong/DHT11.pdf
@@ -83048,6 +85295,13 @@ screw terminal thread redcube thr power connector
 18
 1
 TestPoint
+3chPad
+
+
+0
+1
+1
+TestPoint
 TestPoint_2Pads_Pitch2.54mm_Drill0.8mm
 Test point with 2 pins, pitch 2.54mm, drill diameter 0.8mm
 CONN DEV
@@ -84832,3 +87086,181 @@ varistor SIOV
 0
 2
 2
+<<<<<<< Updated upstream
+=======
+Varistor
+RV_Rect_V25S440P_L26.5mm_W8.2mm_P12.7mm
+Varistor, V25S440P, https://www.littelfuse.com/media?resourcetype=datasheets&itemid=b410c42c-51d1-460e-b1d9-d105d93c9679&filename=littelfuse-varistor-ultramov25s-datasheet
+varistor
+0
+2
+2
+Varistor
+Varistor_Panasonic_VF
+Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
+Varistor VF
+0
+2
+2
+samtec
+SAMTEC-TFM-107-02-X-DH
+0.050" DOUBLE HORIZONTAL TERMINAL STRIP.
+
+0
+18
+18
+samtec
+SAMTEC_FTSH-107-01-L-DV-K-A
+translated Allegro footprint
+
+0
+14
+14
+samtec
+SAMTEC_SFM-108-02-X-D-DS
+
+
+0
+18
+18
+samtec
+SAMTEC_SFM-125-02-L-D-DS
+
+
+0
+52
+52
+samtec
+SAMTEC_T1M-02-F-SV-L-P
+1MM TERMINAL STRIP, 5PINS.
+
+0
+4
+3
+samtec
+SAMTEC_T1M-07-X-DV
+
+
+0
+16
+16
+samtec
+SAMTEC_TFM-103-01-X-S-WT
+
+
+0
+5
+5
+samtec
+SAMTEC_TFM-103-02-L-DH
+
+
+0
+10
+10
+samtec
+SAMTEC_TFM-103-02-S-S-WT
+
+
+0
+5
+5
+samtec
+SAMTEC_TFM-104-01-L-S-WT
+
+
+0
+6
+6
+samtec
+SAMTEC_TFM-104-02-S-DH
+
+
+0
+12
+12
+samtec
+SAMTEC_TFM-104-02-S-S-WT
+
+
+0
+6
+6
+samtec
+SAMTEC_TFM-105-02-X-D-DS
+
+
+0
+16
+16
+samtec
+SAMTEC_TFM-106-02-L-S-WT
+
+
+0
+8
+8
+samtec
+SAMTEC_TFM-108-01-X-D-DS
+
+
+0
+22
+22
+samtec
+SAMTEC_TFM-108-02-X-D-DS
+
+
+0
+22
+22
+samtec
+SAMTEC_TFM-120-01-X-D-DS
+
+
+0
+46
+46
+samtec
+SAMTEC_TFM-125-01-X-D-DS
+
+
+0
+56
+56
+samtec
+SAMTEC_UMPT-02-02.5-G-V-S-W-M-TR
+
+
+0
+6
+6
+samtec
+SAMTEC_UMPT-02-02.5-L-V-S-W-M-TR
+
+
+0
+6
+6
+samtec
+SAMTEC_UMPT-02-02.5-X-V-S-W-P-XX
+
+
+0
+6
+6
+samtec
+SAMTEC_UMPT-04-02.5-L-V-S-W-M-TR
+
+
+0
+8
+8
+samtec
+SAMTEC_UMPT-10-02.5-L-V-S-W-M-TR
+
+
+0
+14
+14
+>>>>>>> Stashed changes

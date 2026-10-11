@@ -56,6 +56,7 @@
         }
       ],
       "drc_exclusions": [
+<<<<<<< Updated upstream
         "clearance|164920298|71364590|64149735-cfa1-4212-814e-1e5f7c08c20d|cfc7fa23-12c8-423d-a92d-1a89c9edd662",
         "clearance|164928000|71499800|64149735-cfa1-4212-814e-1e5f7c08c20d|cfc7fa23-12c8-423d-a92d-1a89c9edd662",
         "hole_near_hole|151942800|100533200|18cf9091-a2f4-41fe-84e4-b4df1d7bf12e|62703dfb-2b62-46cc-88d3-8bcce1262b07",
@@ -204,6 +205,12 @@
         "via_dangling|153263600|99212400|67537ff0-74ff-48a6-922b-614e388f608e|00000000-0000-0000-0000-000000000000",
         "via_dangling|169600000|129600000|bd455b12-cdd7-41a6-b1de-a9fbec41880c|00000000-0000-0000-0000-000000000000",
         "via_dangling|169600000|34600000|64bc9de5-51b6-4885-a9f3-c002ef3bb482|00000000-0000-0000-0000-000000000000"
+=======
+        [
+          "shorting_items|30096000|62501000|6a9a4512-0e64-45e2-96be-35e6156933a5|af8b32ff-285e-4c2a-8fd7-71af38ea412f",
+          ""
+        ]
+>>>>>>> Stashed changes
       ],
       "meta": {
         "version": 2
@@ -531,7 +538,6 @@
         "bus_width": 12.0,
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 1.0,
         "line_style": 0,
         "microvia_diameter": 0.3,
