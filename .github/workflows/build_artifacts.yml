@@ -1,4 +1,4 @@
-name: Build PlatformIO project
+name: Build artifacts
 on:
   push
   
