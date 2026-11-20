@@ -1,0 +1,42 @@
+name: Build PlatformIO project
+on:
+  push
+  
+jobs:
+ build:
+   runs-on: ubuntu-latest
+   steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v6
+  
+    - name: Run KiCad actions
+      uses: actions-for-kicad/kicad-actions@v2-k10.0
+      with:
+        schematic_file_name: ./PTR_mega_pcb/PTR_mega_pcb.kicad_sch
+        symbol_libraries: "symbol-library=./symbol-library.kicad_sym"
+        run_erc: false
+        schematic_output_pdf: true
+  
+        pcb_file_name: ./PTR_mega_pcb/PTR_mega_pcb.kicad_pcb
+        footprint_libraries: "footprint-library=./PTR_mega_pcb/KP-PTR_lib.pretty"
+        run_drc: false
+        pcb_output_gerbers_and_drill: true
+        pcb_output_image: true
+  
+    - name: Upload schematic
+      uses: actions/upload-artifact@v7
+      with:
+        path: ./schematic.pdf
+        archive: false
+  
+    - name: Upload gerbers and drill file
+      uses: actions/upload-artifact@v7
+      with:
+        name: Gerbers
+        path: ./gerbers
+  
+    - name: Upload image render
+      uses: actions/upload-artifact@v7
+      with:
+        path: ./pcb.png
+        archive: false
